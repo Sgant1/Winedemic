@@ -4,12 +4,19 @@ Cleaned files, removing 19 columns, changing ship date and created date ffrom nu
 
 
 - Ecom1
+- 
 All online sales based. 
+
 Promotes primarily 3 pack & 6 pack boxes
+
 - Ecom2
+
 Only ships 2 pack orders.
+
 Club is monthly at the same time every month.
+
 Primarily a gift based program. 
+
 Didn’t ship 2/20, 3/20.
 - Ecom3
 Wine imports big struggle for this customer. Delays led to lack of product to sell.
