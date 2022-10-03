@@ -4,7 +4,7 @@ Cleaned files, removing 19 columns, changing ship date and created date ffrom nu
 
 
 - Ecom1
-- 
+
 All online sales based. 
 
 Promotes primarily 3 pack & 6 pack boxes
