@@ -15,6 +15,9 @@ Random Forest Accuracy Score: 0.988
 
 Neural Network Accuracy: 0.358
 
+### References:
+https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression_multioutput.html#sphx-glr-auto-examples-tree-plot-tree-regression-multioutput-py
+
 ### Software:
 Python 3.7.13
 
