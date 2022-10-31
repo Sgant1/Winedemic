@@ -49,6 +49,7 @@
 - These annual data frames will then be connected and transferred to pgAdmin.
 
 ## Next Steps:
+- Duplicate dirty_months_2020 and cleaned_months_2020 and then edit to 2021.
 - Complete cleaning.
 - Complete joining files into annual data frame and .csv for both 2020 and 2021.
 - Connect Pandas to pgAdmin.
