@@ -1,3 +1,5 @@
 #Ignore data files
 /Users/amanda/Desktop/UCBComplete/Final_Project/2020_Data
 /Users/amanda/Desktop/UCBComplete/Final_Project/2021_Data
+#Ignore .DS_Store
+.DS_Store
