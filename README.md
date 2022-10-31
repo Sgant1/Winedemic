@@ -1,5 +1,11 @@
 # Final_Project AmandaMorgan Branch
 
+## Communication Protocols:
+- Work on assigned responsibilities throughout the week.
+- Meet on Monday and Wednesday class times to discuss in depth progress.
+- Check in on Tuesdays via Slack with updates. 
+- If questions aries outside of these times, post in Slack in our private group chat. 
+
 ## Week 1 Objectives:
 - Complete Project Proposal and get approval. (Granted!)
 "[Project Proposal]"(https://docs.google.com/document/d/1zHZrEiBU_xwVG8T5lrOBgKtYCqI6weuc/edit?usp=sharing&ouid=115296781988388488466&rtpof=true&sd=true)
