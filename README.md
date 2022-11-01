@@ -59,6 +59,17 @@
 - Connect Pandas to pgAdmin.
 - Merge with Ashley's code to analyze our data to answer the questions presented in our Project Proposal.
 
+## Week 2 Objectives:
+- Duplicate dirty_months_2020 and cleaned_months_2020 and then edit to 2021.
+- Complete cleaning.
+- Complete joining files into annual data frame and .csv for both 2020 and 2021.
+- Connect Pandas to pgAdmin.
+- Merge with Ashley's code to analyze our data to answer the questions presented in our Project Proposal.
+- Look at cleaning "States" excel file to create lockdown dates db.
+
+## Cleaning 2020 and 2021:
+- Compelted cleaning all 12 months of both 2020 and 2021 and pushed cleaned .csv files to AmandaMorgan Branch. Need to confirm that Winery3 was added to 2020 and 2021 data.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Main Branch:
