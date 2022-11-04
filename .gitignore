@@ -1,8 +1,0 @@
-#Ignore data files
-/Users/amanda/Desktop/UCBComplete/Final_Project/2020_Data
-/Users/amanda/Desktop/UCBComplete/Final_Project/2021_Data
-/Users/amanda/Desktop/UCBComplete/Final_Project/data_frame/complete_annual_df
-/Users/amanda/Desktop/UCBComplete/Final_Project/data_frame/complete_annual_df/Complete_2020.csv
-/Users/amanda/Desktop/UCBComplete/Final_Project/data_frame/complete_annual_df/Complete_2021.csv
-#Ignore .DS_Store
-.DS_Store
