@@ -10,7 +10,7 @@ CREATE TABLE complete_2020 (
 	 Created_Date DATE NOT NULL,
 	 Weight INT NOT NULL,
 	 "Item/Bottle_Count" INT NOT NULL,
-     PRIMARY KEY (--Index? Need unique characters),
+     PRIMARY KEY ("Index"),
      FOREIGN KEY ("State") REFERENCES "State Research" ("State")
 );
 --DROP TABLE 2020 CASCADE;
@@ -26,7 +26,7 @@ CREATE TABLE complete_2020 (
 	 Created_Date DATE NOT NULL,
 	 Weight INT NOT NULL,
 	 "Item/Bottle_Count" INT NOT NULL,
-     PRIMARY KEY (--Index? Need unique characters),
+     PRIMARY KEY ("Index"),
      FOREIGN KEY ("State") REFERENCES "State Research" ("State")
 );
 --DROP TABLE 2021 CASCADE;
