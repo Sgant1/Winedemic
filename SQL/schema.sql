@@ -1,5 +1,5 @@
 -- Don't run any of this yet- Edit .csv to include an index column in order to have a primary key in 2020 and 2021. 
-CREATE TABLE 2020 (
+CREATE TABLE complete_2020 (
 	 "Index" INT NOT NULL,
      Company_Name VARCHAR(40) NOT NULL,
      Ship_Date VARCHAR(40) NOT NULL,
@@ -13,8 +13,9 @@ CREATE TABLE 2020 (
      PRIMARY KEY (--Index? Need unique characters),
      FOREIGN KEY ("State") REFERENCES "State Research" ("State")
 );
+--DROP TABLE 2020 CASCADE;
 
-	CREATE TABLE 2021 (
+	CREATE TABLE compelte_2021 (
 	 "Index" INT NOT NULL,
      Company_Name VARCHAR(40) NOT NULL,
      Ship_Date VARCHAR(40) NOT NULL,
@@ -28,7 +29,8 @@ CREATE TABLE 2020 (
      PRIMARY KEY (--Index? Need unique characters),
      FOREIGN KEY ("State") REFERENCES "State Research" ("State")
 );
-
+--DROP TABLE 2021 CASCADE;
+		
 CREATE TABLE "State Research" (
 	"State"  VARCHAR (40) NOT NULL,
 	Population INT NOT NULL,
@@ -38,3 +40,8 @@ CREATE TABLE "State Research" (
 	Political_Alignment VARCHAR (40) NOT NULL,
 	PRIMARY KEY ("State"),
 );
+-- DROP TABLE "State Research" CASCADE;
+		
+--SELECT COUNT(100) FROM 2020;
+--SELECT COUNT(100) FROM 2021;
+--SELECT * FROM "State Research";
