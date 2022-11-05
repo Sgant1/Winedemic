@@ -1,6 +1,6 @@
 # **Winedemic**
 
-![Winedemic-logo.jpeg](https://github.com/Sgant1/Final_Project/blob/9822a36bebb332058ed3fc59254651134ec4ec3e/Winedemic-logo.jpeg)
+![Winedemic-logo.jpeg](https://github.com/Sgant1/Final_Project/blob/0508dc0546784c7ce4e7dc4e461715362750c23f/Winedemic_logo%20700x625.png)
 
 ## **Introduction**
 
