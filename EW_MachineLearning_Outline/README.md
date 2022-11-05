@@ -48,3 +48,4 @@ Scikit Learn 1.0
 
 TensorFlow 2.10.0
 
+SQLAlchemy 1.4.32
