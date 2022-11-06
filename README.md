@@ -18,7 +18,7 @@ Team member Steve Gant is employed by a 3rd party logistics company and has been
 
 - The data set includes wines shipped to all states except where prohibited by law. As is the case for the states of Rhode Island, Mississippi, and Utah.
 
-Wine Companies Studied
+**Wine Companies Studied**
 
 Three of the companies are e-commerce based companies--wine sellers who offer wines from multiple producers, and three are wineries selling their products direct to consumers. Below we've included some additional information about each company included in our data set.
 
@@ -34,6 +34,8 @@ Three of the companies are e-commerce based companies--wine sellers who offer wi
 
 - **Winery3** : 
 
+**States Research**
+
 We have compiled a spreadsheet with specific information as it pertains to each individual state along with additional information we found might be interesting or important to consider in our analysis. This spreadsheet includes Population, Population Density, Household Size, % Uninsured, % Living in Poverty, % Population aged 65+, Lockdown Start, Initial Expected Lockdown End, Phase 1 Re-Opening Start, Re-Opening notes, Shipping Laws/Restrictions, Maximum Shipping Amount allowed in accordance with individual state laws, and Political Alignment.
 
 [States Spreadsheet] https://docs.google.com/spreadsheets/d/1HCtPgPVyrqVgxTyKwS5Qj6OLXZJXs_VPq_MCs4-rusg/edit#gid=1741904899
@@ -43,32 +45,33 @@ We have compiled a spreadsheet with specific information as it pertains to each 
 
 # Analysis
 
-ERD
-![](link goes here)
+**ERD**
+![Working_ERD_No_Code.png](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/Working_ERD_No_Code.png)
 
-Database Set-up Code
-![](link goes here)
+**Database Set-up Code**
+[Database Set-up Code](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/schema.sql)
 
-Description of Machine Learning model:
+**Description of Machine Learning model:**
 
 The goal of the Machine Learning model is to predict ‘Item/Bottle Count’ per month. We can do this using a regression model, specifically the RandomForestRegression model from Scikit Learn. This model can be optimized by changing the hyperparameters of the model(ex: max_depth), and the predictions can be scored by printing the r-squared values once the model has been trained and tested. This model can quickly predict regression outputs (‘Item/Bottle Count’) from complex data and is more easily interpreted compared to a neural network model.
 
 # Summary
 
 Questions We Hope to Answer
- How many items/bottles per month have been purchased in each state and zip code from January 2020 to December 2021?
 
- Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
+- [] How many items/bottles per month have been purchased in each state and zip code from January 2020 to December 2021?
 
- How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+- [] Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
 
- How do wine shipments compare between red states and blue states?
+- [] How do wine shipments compare between states that had stay at home orders issued vs states that did not?
 
- Which state consumed the most wine?
+- [] How do wine shipments compare between red states and blue states?
 
- Which state saw the most significant change in wine consumption?
+- [] Which state consumed the most wine?
+
+- [] Which state saw the most significant change in wine consumption?
  
- Limitations
+ **Limitations**
  
  # Software
  
