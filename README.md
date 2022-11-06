@@ -46,9 +46,11 @@ We have compiled a spreadsheet with specific information as it pertains to each 
 # Analysis
 
 **ERD**
+
 ![Working_ERD_No_Code.png](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/Working_ERD_No_Code.png)
 
 **Database Set-up Code**
+
 [Database Set-up Code](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/schema.sql)
 
 **Description of Machine Learning model:**
@@ -59,17 +61,17 @@ The goal of the Machine Learning model is to predict ‘Item/Bottle Count’ per
 
 Questions We Hope to Answer
 
-- [] How many items/bottles per month have been purchased in each state and zip code from January 2020 to December 2021?
+- [ ]  How many items/bottles per month have been purchased in each state and zip code from January 2019 to December 2021?
 
-- [] Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
+- [ ]  Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
 
-- [] How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+- [ ]  How do wine shipments compare between states that had stay at home orders issued vs states that did not?
 
-- [] How do wine shipments compare between red states and blue states?
+- [ ]  How do wine shipments compare between red states and blue states?
 
-- [] Which state consumed the most wine?
+- [ ]  Which state consumed the most wine?
 
-- [] Which state saw the most significant change in wine consumption?
+- [ ]  Which state saw the most significant change in wine consumption?
  
  **Limitations**
  
