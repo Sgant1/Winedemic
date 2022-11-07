@@ -30,7 +30,7 @@ Three of the companies are e-commerce based companies--wine sellers who offer wi
 
 - **Winery1** : Tasting room shut down until 2021.  Does a 4 bottle package wine club shipment every quarter.
 
-- **Winery2** : No tasting room, but were not able to perform private tastings due to COVID-19 shutdowns and restrictions. Bottle prices are on the high end in comparison to the average winery. With most consumers choosing to buy in volume over quality it,  overall sales losses were noted by the company even though our data does was not able to include this information.
+- **Winery2** : No tasting room, but were not able to perform private tastings due to COVID-19 shutdowns and restrictions. Bottle prices are on the high end in comparison to the average winery. With most consumers choosing to buy in volume over quality,  overall sales losses were noted by the company even though our data was not able to include this information.
 
 - **Winery3** : 
 
@@ -41,6 +41,7 @@ We have compiled a spreadsheet with specific information as it pertains to each 
 [States Spreadsheet] https://docs.google.com/spreadsheets/d/1HCtPgPVyrqVgxTyKwS5Qj6OLXZJXs_VPq_MCs4-rusg/edit#gid=1741904899
 
 - We defined Lockdown start dates as the date in which the entire state was ordered by its Governor to "Shelter in Place" -- or in the case of Alaska, "Hunker Down." Many states ordered public schools to close and limited large gathering activities earlier than March of 2020 but did not close the states non-essential activites and businesses until later-- if at all, in the case of a couple states(). This definition made the most sense to us since our goal was to analyze how lockdown orders effected wine sales. With normal, in person, avenues for purchasing wine shutdown in many cases, were sonsumers more likely to have wine shipped to them as the natural alternative?
+
 - Political Alignment is defined in the boolean of either "red" or "blue" states based on the results of the 2020 national elecion. Pandemic response actions and decisions by government leaders became highly politicized against this dichotomy and thus we think this information will provide aditional insight into our analysis of the citizens of each state's wine purchasing behavior.
 
 # Analysis
@@ -73,11 +74,11 @@ Questions We Hope to Answer
 
 - [ ]  Which state saw the most significant change in wine consumption?
  
- **Limitations**
+**Limitations**
  
- # Software
+# Software
  
- Python v.
+Python v.
 
 Pandas v.
 
