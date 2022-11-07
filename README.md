@@ -8,6 +8,19 @@ This project focuses on how the COVID-19 pandemic impacted wine sales throughout
 
 We were motivated to begin this project as three of our team members work in the wine industry and we all consider ourselves wine enthusiasts. The COVID-19 pandemic impacted all industries including wine producers and sellers. We noticed changes in how much wine people seemed to be consuming throughout the COVID-19 pandemic and we intend to try and prove (or disprove) this trend with data.
 
+# Communication Protocols
+
+As our group consists of five members, our roles didnt fit entirely into the Square/ Circle/ Triangle/ X roles. We broke task management down as follows:
+
+Square Role: Steve: Collect/Clean the data. GitHub Dashboard Manager, 
+Circle Role: Amanda: Code Outline, joining data sets, Pseudocode SQL interface. Ashley: Pseudocode for analysis.
+Triangle Role: Erica: Machine Learning (find out if our analysis will be applicable for machine learning) Visuals, 
+X Role: Zack: ‘Technology.md’ file in branch
+Ashley: Task Management, Written analysis, logo development,  Rubric Alignment
+All: complete state spreadsheet
+
+We communicate via Slack daily and have been working consitently together on Mondays and Wednesdays.
+
 # Data
 
 Team member Steve Gant is employed by a 3rd party logistics company and has been given permission to access datasets from the six randomly selected wine companies. The datasets contain information on wine sales by order number, company, ship date, state, zip code, shipping service, date created, weight of shipment, and item/bottle count. This data does not contain any private customer information or sales dollar amounts.
@@ -34,7 +47,7 @@ Three of the companies are e-commerce based companies--wine sellers who offer wi
 
 - **Winery2** : No tasting room, but were not able to perform private tastings due to COVID-19 shutdowns and restrictions. Bottle prices are on the high end in comparison to the average winery. With most consumers choosing to buy in volume over quality,  overall sales losses were noted by the company even though our data was not able to include this information.
 
-- **Winery3** : 
+- **Winery3** : Information to be added here
 
 **States Research**
 
@@ -59,6 +72,8 @@ We have compiled a spreadsheet with specific information as it pertains to each 
 **Description of Machine Learning model:**
 
 The goal of the Machine Learning model is to predict ‘Item/Bottle Count’ per month. We can do this using a regression model, specifically the RandomForestRegression model from Scikit Learn. This model can be optimized by changing the hyperparameters of the model(ex: max_depth), and the predictions can be scored by printing the r-squared values once the model has been trained and tested. This model can quickly predict regression outputs (‘Item/Bottle Count’) from complex data and is more easily interpreted compared to a neural network model.
+
+[EW_MachineLearning_Outline](https://github.com/Sgant1/Final_Project/tree/main/EW_MachineLearning_Outline)
 
 # Summary
 
