@@ -10,7 +10,9 @@ We were motivated to begin this project as three of our team members work in the
 
 # Communication Protocols
 
-As our group consists of five members, our roles didnt fit entirely into the Square/ Circle/ Triangle/ X roles. We broke task management down as follows:
+As our group consists of five members, our roles didn't fit exactly into the Square/ Circle/ Triangle/ X roles as outlined in the module. 
+
+We broke task management down as follows:
 
 Square Role: Steve: Collect/Clean the data. GitHub Dashboard Manager, 
 Circle Role: Amanda: Code Outline, joining data sets, Pseudocode SQL interface. Ashley: Pseudocode for analysis.
