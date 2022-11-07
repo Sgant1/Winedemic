@@ -14,11 +14,16 @@ As our group consists of five members, our roles didn't fit exactly into the Squ
 
 We broke task management down as follows:
 
-Square Role: Steve: Collect/Clean the data. GitHub Dashboard Manager, 
-Circle Role: Amanda: Code Outline, joining data sets, Pseudocode SQL interface. Ashley: Pseudocode for analysis.
-Triangle Role: Erica: Machine Learning (find out if our analysis will be applicable for machine learning) Visuals, 
+Square Role: Steve: Collect/Clean the data. GitHub Dashboard Manager
+
+Circle Role: Amanda: Code Outline, joining data sets, Pseudocode SQL interface. Ashley: Pseudocode for analysis
+
+Triangle Role: Erica: Machine Learning (find out if our analysis will be applicable for machine learning) Visuals
+
 X Role: Zack: ‘Technology.md’ file in branch
-Ashley: Task Management, Written analysis, logo development,  Rubric Alignment
+
+Other: Ashley: Task Management, README.md, logo development,  Rubric Alignment
+
 All: complete state spreadsheet
 
 We communicate via Slack daily and have been working consitently together on Mondays and Wednesdays.
