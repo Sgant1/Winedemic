@@ -44,13 +44,7 @@ Team member Steve Gant is employed by a 3rd party logistics company and has been
 
 Three of the companies are e-commerce based companies--wine sellers who offer wines from multiple producers, and three are wineries selling their products direct to consumers. Below we've included some additional information about each company included in our data set.
 
-<<<<<<< HEAD
-### Description of Machine Learning model:
-The goal of the Machine Learning model is to predict ‘Item/Bottle Count’ per month. We can do this using a regression model, specifically the RandomForestRegression model from Scikit Learn. This model can be optimized by changing the hyperparameters of the model(ex: max_depth), and the predictions can be scored by printing the r-squared values once the model has been trained and tested. This model can quickly predict regression outputs (‘Item/Bottle Count’) from complex data and is more easily interpreted compared to a neural network model.
-
-=======
 - **Ecom1** : All online sales based. Promotes primarily 3 bottle & 6 bottle pack boxes.
->>>>>>> main
 
 - **Ecom2** : Only ships 2 bottle pack orders. Wine club shipments are shipped out monthly. Primarily a gift based program. Did not ship out wine for the months of February 2020 or March 2020.
 
