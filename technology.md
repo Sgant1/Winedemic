@@ -14,4 +14,4 @@ ___ is the ML library we'll be using to create a classifier. Our training and te
 
 ## Dashboard
 
-In addition to using a __ template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___.
+In addition to using a __ template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___. Looking at using Tableau to fomrulate dashboards.
