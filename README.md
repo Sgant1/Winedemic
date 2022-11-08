@@ -50,11 +50,11 @@ Three of the companies are e-commerce based companies--wine sellers who offer wi
 
 - **Ecom3** : Wine imports were a big struggle for this company. Pandemic related international shipping delays led to lack of product to sell.  Experienced more volume purchases than quality. COVID surcharge from carriers cut into profitability reducing money spend on marketing.
 
-- **Winery1** : Tasting room shut down until 2021.  Does a 4 bottle package wine club shipment every quarter.
+- **Winery1** : Tasting room shut down until 2021.  Does a 4 bottle package wine club shipment every quarter. Reopened early 2021 with redesign of outdoor seating to accomodate tastings at the winery.
 
 - **Winery2** : No tasting room, but were not able to perform private tastings due to COVID-19 shutdowns and restrictions. Bottle prices are on the high end in comparison to the average winery. With most consumers choosing to buy in volume over quality,  overall sales losses were noted by the company even though our data was not able to include this information.
 
-- **Winery3** : Information to be added here
+- **Winery3** : Small production winery. Club 2 times a year in spring, then again in fall. Tasting room at owners house, was not open for Covid.
 
 **States Research**
 
