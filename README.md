@@ -22,33 +22,33 @@ Triangle Role: Erica: Machine Learning (find out if our analysis will be applica
 
 X Role: Zack: ‘Technology.md’ file in branch
 
-Other: Ashley: Task Management, README.md, logo development,  Rubric Alignment
+Other: Ashley: Task Management, README.md, logo development, Rubric Alignment
 
 All: complete state spreadsheet
 
-We communicate via Slack daily and have been working consitently together on Mondays and Wednesdays.
+We communicate via Slack daily and have been working consistently together on Mondays and Wednesdays.
 
 # Data
 
-Team member Steven Gant is employed by a 3rd party logistics company and has been given permission to access datasets from the six randomly selected wine companies. The datasets contain information on wine sales by order number, company, ship date, state, zip code, shipping service, date created, weight of shipment, and item/bottle count. This data does not contain any private customer information or sales dollar amounts.
+Team member Steve Gant is employed by a 3rd party logistics company and has been given permission to access datasets from the six randomly selected wine companies. The datasets contain information on wine sales by order number, company, ship date, state, zip code, shipping service, date created, weight of shipment, and item/bottle count. This data does not contain any private customer information or sales dollar amounts.
 
 - For the purpose of this analysis we will be defining consumption/sales volume as the number of bottles shipped to the consumer.
 
-- We will also be focusing on the date the order was created as the purchase date rather than the shipment date--the date the wine actually shipped out to the customer. We consider this to be a more accurate indicator of a customer's motivation to create a wine purchase.
+- We will also be focusing on the date the order was created as the purchase date rather than the shipment date-the date the wine actually shipped out to the customer. We consider this to be a more accurate indicator of a customer's motivation to create a wine purchase.
 
-- We will be using the 2019 shipping data to establish a baseline for sales pre-pandemic. The onset of the COVID-19 pandemic began around January of 2020 with many states issuing lockdowns and Shelter in Place orders around March/April 2020 and extended through around May/June of 2020. Wine shipment data for the year 2021 will be used to describe the post-pandemic/recovery period in this data story.
+- We will be using the 2019 shipping data to establish a baseline for sales pre-pandemic. The onset of the COVID-19 pandemic began around January of 2020 with many states issuing lockdowns and Shelter in Place orders around March/April 2020 and extended through around May/June 2020. Wine shipment data for the year 2021 will be used to describe the post-pandemic/recovery period in this data story.
 
-- The data set includes wines shipped to all states except where prohibited by law. As is the case for the states of Rhode Island, Mississippi, and Utah.
+- The data set includes wines shipped to all states except where prohibited by law, as is the case for the states of Rhode Island, Mississippi, and Utah.
 
 **Wine Companies Studied**
 
-Three of the companies are e-commerce based companies--wine sellers who offer wines from multiple producers, and three are wineries selling their products direct to consumers. Below we've included some additional information about each company included in our data set.
+Three of the companies are e-commerce-based companies-wine sellers who offer wines from multiple producers, and three are wineries selling their products direct to consumers. Below we've included some additional information about each company in our data set.
 
-- **Ecom1** : All online sales based. Promotes primarily 3 bottle & 6 bottle pack boxes.
+- **Ecom1** : All online sales based. Promotes primarily 3-pack & 6-pack boxes.
 
-- **Ecom2** : Only ships 2 bottle pack orders. Wine club shipments are shipped out monthly. Primarily a gift based program. Did not ship out wine for the months of February 2020 or March 2020.
+- **Ecom2** : Only ships 2-pack orders. Wine club shipments are shipped out monthly. Primarily a gift based program. Did not ship out wine for the months of February 2020 or March 2020.
 
-- **Ecom3** : Wine imports were a big struggle for this company. Pandemic related international shipping delays led to lack of product to sell.  Experienced more volume purchases than quality. COVID surcharge from carriers cut into profitability reducing money spend on marketing.
+- **Ecom3** : Wine imports were a big struggle for this company. Pandemic related international shipping delays led to lack of product to sell. Experienced more volume purchases than quality. COVID surcharge from carriers cut into profitability reducing money spend on marketing.
 
 - **Winery1** : Tasting room shut down until 2021.  Does a 4 bottle package wine club shipment every quarter. Reopened early 2021 with redesign of outdoor seating to accomodate tastings at the winery.
 
