@@ -30,7 +30,7 @@ We communicate via Slack daily and have been working consitently together on Mon
 
 # Data
 
-Team member Steve Gant is employed by a 3rd party logistics company and has been given permission to access datasets from the six randomly selected wine companies. The datasets contain information on wine sales by order number, company, ship date, state, zip code, shipping service, date created, weight of shipment, and item/bottle count. This data does not contain any private customer information or sales dollar amounts.
+Team member Steven Gant is employed by a 3rd party logistics company and has been given permission to access datasets from the six randomly selected wine companies. The datasets contain information on wine sales by order number, company, ship date, state, zip code, shipping service, date created, weight of shipment, and item/bottle count. This data does not contain any private customer information or sales dollar amounts.
 
 - For the purpose of this analysis we will be defining consumption/sales volume as the number of bottles shipped to the consumer.
 
