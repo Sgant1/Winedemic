@@ -44,7 +44,7 @@ Team member Steve Gant is employed by a 3rd party logistics company and has been
 
 Three of the companies are e-commerce-based companies-wine sellers who offer wines from multiple producers, and three are wineries selling their products direct to consumers. Below we've included some additional information about each company in our data set.
 
-- **Ecom1** : All online sales based. Promotes primarily 3-pack & 6-pack boxes.
+- **Ecom1** : All online sales based. Promotes primarily 3-pack & 6-pack orders.
 
 - **Ecom2** : Only ships 2-pack orders. Wine club shipments are shipped out monthly. Primarily a gift based program. Did not ship out wine for the months of February 2020 or March 2020.
 
