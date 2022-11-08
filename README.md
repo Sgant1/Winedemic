@@ -54,7 +54,7 @@ Three of the companies are e-commerce based companies--wine sellers who offer wi
 
 - **Winery2** : No tasting room, but were not able to perform private tastings due to COVID-19 shutdowns and restrictions. Bottle prices are on the high end in comparison to the average winery. With most consumers choosing to buy in volume over quality,  overall sales losses were noted by the company even though our data was not able to include this information.
 
-- **Winery3** : Small production winery. Club 2 times a year in spring, then again in fall. Tasting room at owners house, was not open for Covid.
+- **Winery3** : Small production winery. Club 2 times a year in spring, then again in fall. Tasting room at owners house, was not open for Covid. Customer held orders for 2021 in October, November, December.
 
 **States Research**
 
