@@ -1,0 +1,27 @@
+State,State Full Name,Population,Population Density (people per sq. mile),Household Size,% Uninsured,% Living in Poverty,% Population 65+,Lockdown Start,Inital Expected Lockdown End,Phase 1 Re-Opening Start,Re-Opening notes,Shipping Laws/Restrictions,Max Shipping Amount,Politcal Alignment Red vs. Blue 2020
+HI,Hawaii,"1,415,872",220.44,3.02,4.1,9.9,18.96,3/23/2020,4/30/2020,5/5/2020,,,6 cases per household address per winery,Blue 
+ME,Maine,"1,344,212",43.58,2.33,8.3,12.5,21.22,4/2/2020,4/30/2020,5/1/2020,,"“Wine coolers” may NOT be shipped DTC        
+Wine may NOT be shipped in containers smaller than 750ml",12 cases per recipient address,Blue 
+MD,Maryland,"6,045,680",622.82,2.67,6.5,9.4,15.87,3/12/2020,3/27/2020,5/13/2020,,,18 cases per address,Blue 
+MI,Michigan,"9,986,857",176.64,2.49,6.1,15,17.68,3/24/2020,4/14/2020,6/1/2020,,,"1,500 cases per year",Blue 
+MS,Mississippi,"2,976,149",63.43,2.62,12.7,20.8,16.35,4/3/2020,4/20/2020,4/27/2020,,DTC shipping prohibited,DTC shipping prohibited,Red
+NH,New Hampshire,"1,359,711",151.87,2.46,6.5,7.9,18.67,3/27/2020,5/4/2020,5/18/2020,,,12 cases per person,Blue 
+NC,North Carolina,"10,488,084",215.72,2.52,11.1,15.4,16.7,3/30/2020,4/29/2020,5/20/2020,,Direct shippers must notify their NC wholesaler of intent to direct ship any brand labels already in distribution,2 cases per person,Red
+TN,Tennessee,"6,829,174",165.62,2.53,10.1,16.1,16.74,4/2/2020,4/14/2020,5/1/2020,"*orders issued were ""urged"" not ""mandated"" starting March 30",,"Limits per Winery
+Monthly: 
+1 case/person
+Calendar year: 
+3 cases/person
+Limits per Winery that produces less than 30,000 cases/yr
+Monthly: 
+1 case/person
+Calendar year: 
+6 cases/person",Red
+TX,Texas,"28,995,881",111,2.86,17.4,15.5,12.88,3/31/2020,5/4/2020,5/1/2020,,,"Limits per Winery
+Monthly: 
+9 gal/person
+12 months: 
+36 gal/person
+State Aggregate: 
+35K gal/yr",Red
+UT,Utah,"3,205,958",39.02,3.13,10,10.3,11.41,3/27/2020,4/13/2020,5/1/2020,,DTC shipping prohibited,DTC shipping prohibited,Red
