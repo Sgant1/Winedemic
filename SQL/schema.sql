@@ -75,7 +75,10 @@ SELECT COUNT (*) FROM "State Research";
 
 --confirm column names are correct and data imported correctly from 2020.
 SELECT * FROM complete_2020
-LIMIT 10;
+LIMIT 5;
+
+SELECT * FROM "State Research"
+Limit 5;
 
 --Also confirmed by right clicking on "complete_2020" table in the left panel>properties>columns.
 --can edit PK and FK from the above directions as well.
@@ -84,3 +87,29 @@ LIMIT 10;
 SELECT * FROM complete_2021
 LIMIT 10;
 
+
+-- Create new table for State that excludes population
+SELECT "State", "Lockdown Start", "Initial Expected Lockdown End", "Phase 1 Re-Opening Start", "Political Alignment"
+INTO Joined_State_2020
+FROM "State Research";
+--WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+--AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+-- Check the table
+SELECT * FROM Joined_State_2020
+Limit 5
+
+--Join State Research with complete_2020 on "State"
+SELECT c."State",
+     c."Created Date",
+     c."Item/Bottle Count",
+	 J."Lockdown Start",
+	 J."Initial Expected Lockdown End",
+	 J."Phase 1 Re-Opening Start",
+	 J."Political Alignment"
+FROM "complete_2020" AS c
+INNER JOIN Joined_State_2020 AS J
+ON J."State" = c."State";
+--DROP TABLE Joined_State_2020;
+	 
+SELECT * FROM Joined_State_2020
+LIMIT 5;
