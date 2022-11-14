@@ -1,43 +1,30 @@
 # Machine Learning Models
 
 ### Overview:
-A sample dataset of preliminary wine data has been used to train and test a few different machine learning models. In this project the target variable is ‘Item/Bottle Count’, which can be predicted with either a classification model or a linear regression model. The goal is to have the model predict an integer amount of wine that will be sold.
+This project uses the Random Forest Regressor model from Scikit Learn to predict the number of wine bottles that will be purchased. Random Forest models are usually more accurate than Decision Tree models and have a lower chance of overfitting the data. Random Forest models are also easier to interpret compared to neural networks because the input features do not need to be scaled, and they don’t usually need as much tuning or optimizing either. 
+
+However, one disadvantage of the Random Forest Regressor model is that it cannot extrapolate values that fall outside of the training data set, or values that it has not seen before. Therefore, the training data will be customized to include samples of data from each month so that it can better predict trends throughout the whole year.
+
 
 ### Data Preprocessing:
-The data used in each model has been converted to numerical datatypes and encoded with LabelEncoder from Scikit Learn. 
-The data is also split into features and targets and scaled with the MinMaxScaler.
+The wine data for each year can be imported from the PostgreSQL Winedemic database.
 
-***Note: It may be worth trying to encode the data with a different encoder to avoid overfitting.***
+The data has been prepared for the model by converting columns to numerical datatypes and encoded with LabelEncoder from Scikit Learn. Columns Ship Date, Zip, and Weight are dropped.     
+
+The data has been filtered by month and split into training and test data sets, then fit to four models with different values for max_depth in order to determine which model provides the best results.
+
+Each of the four RandomForestRegressor models are evaluated by printing the R-squared values for the training and test sets, the Mean Squared Error, Root Mean Squared Error, And Mean Absolute Error.
+
 
 ### Results:
-Decision Trees Classifier
--	Max_depth=5 Accuracy Score: 0.624
--	Max_depth=10 Accuracy Score: 0.633
--	Max_depth=20 Accuracy Score: 0.607
--	Max_depth=None Accuracy Score: 0.583
-
-Decision Trees Regressor
--	Max_depth=5 R-Squared Score: 0.537
--	Max_depth=10 R-Squared Score: 0.523
--	Max_depth=20 R-Squared Score: 0.365
--	Max_depth=None R-Squared Score: 0.216
-
-Random Forest Classifier 
--	Max_depth=5 Accuracy Score: 0.615
--	Max_depth=10 Accuracy Score: 0.632
--	Max_depth=20 Accuracy Score: 0.638
--	Max_depth=None Accuracy Score: 0.626
-
-Random Forest Regressor 
--	Max_depth=5 R-Squared Score: 0.545
--	Max_depth=10 R-Squared Score: 0.562
--	Max_depth=20 R-Squared Score: 0.564
--	Max_depth=None R-Squared Score: 0.553
-
-Neural Network Accuracy: 0.358
+<img src="" height="" width="">
+<img src="" height="" width="">
 
 ### References:
 https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression_multioutput.html#sphx-glr-auto-examples-tree-plot-tree-regression-multioutput-py
+
+https://www.kdnuggets.com/2019/06/random-forest-vs-neural-network.html
+
 
 ### Software:
 Python 3.7.13
