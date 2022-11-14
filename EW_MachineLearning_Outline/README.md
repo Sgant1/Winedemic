@@ -18,7 +18,7 @@ Each of the four RandomForestRegressor models are evaluated by printing the R-sq
 
 ### Results:
 <img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/EvaluateModel1.png" height="50%" width="50%">
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/EvaluateModel2.png" height="50%" width="50%">
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/EvaluateModel2.png" height="40%" width="40%">
 
 ### References:
 https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression_multioutput.html#sphx-glr-auto-examples-tree-plot-tree-regression-multioutput-py
