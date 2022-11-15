@@ -46,6 +46,9 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
 <img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Option1_Results.png" height="50%" width="50%">
 <img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Option2_Results.png" height="50%" width="50%">
 
+As shown in the images above, the first option of testing the model with random samples from every month resulted in better scores compared to the second option of testing the model with only the 2019 and 2020 data. Option 1 provides more training data for the model, but it takes a lot of code to complete the process. Option 2 provides much less training data compared to Option 1 but can easily be written in a few lines of code, as well as easily refactored for future use when more data is available. 
+
+
 ### References:
 https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression_multioutput.html#sphx-glr-auto-examples-tree-plot-tree-regression-multioutput-py
 
