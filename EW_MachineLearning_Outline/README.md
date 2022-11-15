@@ -23,7 +23,7 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
         - We can drop Unnamed:0 and Order Number because they are just identifier values that shouldn’t have any influence on the predicting the target variable. 
         - Ship Date can be dropped because we want to reduce the noise in the data and focus on the date the order was created (aka. Created Date). We consider this to be a more accurate indicator of a customer's motivation to create a wine purchase compared to the Ship Date.
         - Zip can be dropped or converted to a standardized five-digit format. (Some entries are in the nine-digit format ex: 10314-3222)
-        - Weight needs to be dropped because we already know it is mathematically related to the target variable and should not be used as a feature to make predictions. ***Alternatively, a model could be created with both Weight and Item/Bottle Count as target variables. ***
+        - Weight needs to be dropped because we already know it is mathematically related to the target variable and should not be used as a feature to make predictions. ***Alternatively, a model could be created with both Weight and Item/Bottle Count as target variables.***
     - Encode columns City, State, and Shipping Service with LabelEncoder. This will convert categorical data to numeric datatypes so that it can be understood by the model. 
     - Convert Created Date column to datetime format and create three columns for the Year, Month, and Day, then drop the original Created Date column. The date needs to be converted because the Random Forest Regressor model cannot have columns with datetime format as input. The columns must be numerical.
 
@@ -31,7 +31,7 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
     - Option 1: Split data by taking random samples from each month of the year (ex: use train_test_split on January data, then February data, then March data, etc.) And then combine all the samples into training data representing all months, and test data representing all months.
     - Option 2: Split data by using the 2019 and 2020 data for training the model, and the 2021 data for testing the model.
 
-7. Future training of the model can occur by continuing to add the actual purchase data from each of the six wine companies to the dataset over time. This will increase the amount of data that the model can use to learn and can improve the accuracy of the model as well. *** Note: It is not guaranteed that the model accuracy will continue to improve indefinitely with increase in the amount of data. This may lead to overfitting, and the model should continuously be evaluated. ***
+7. Future training of the model can occur by continuing to add the actual purchase data from each of the six wine companies to the dataset over time. This will increase the amount of data that the model can use to learn and can improve the accuracy of the model as well. ***Note: It is not guaranteed that the model accuracy will continue to improve indefinitely with increase in the amount of data. This may lead to overfitting, and the model should continuously be evaluated.***
 
 8. Evaluating the model: 
     - R-Squared: Once the model is fit with training data, it can be evaluated by calculating the R-squared value which determines how well the model (and the input features) can predict future outcomes.
