@@ -50,10 +50,9 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
 
 ### Results:
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Option1_Results.png" height="50%" width="50%">
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Option2_Results.png" height="50%" width="50%">
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Option1_CleanResults.png" height="50%" width="50%">
 
-As shown in the images above, the first option of testing the model with random samples from every month resulted in better scores compared to the second option of testing the model with only the 2019 and 2020 data. Option 1 provides more training data for the model, but it takes a lot of code to complete the process. Option 2 provides much less training data compared to Option 1 but can easily be written in a few lines of code, as well as easily refactored for future use when more data is available. 
+As shown in the image above, the first option splitting the data into train and test sets resulted in good scores for our purposes. The trained model has an R-Squared value of around 0.78, which means that the input features have a 78% chance of predicting the target. The RMSE of 7.8 shows that the model’s prediction may be off by a weighted average of 7.8 bottles. The MAE score shows that the model’s average absolute error for prediction is off by around 1.6 bottles. 
 
 
 ### References:
