@@ -115,15 +115,58 @@ ________________________________________________________________________________
 - Week 3 Next Steps.
 
 ## Analysis:
-   - How many items/bottles per month have been purchased in each state from January 2019 to December 2021?
-   INSERT IMAGE OF DF
-   - Which state consumed the most wine?
-   INSERT IMAGE OF TOP STATE
-   - Which state saw the most significant change in wine consumption?
+### What was the total bottle count for 2020 sales?
+    - Total bottle count for 2020 is 1,148,819.
+  <img width="492" alt="2020_total_bottle_count" src="https://user-images.githubusercontent.com/106630710/202337621-1a8b529a-041c-4a62-a0c0-9ab1dfd26fc0.png">
+
+### How many items/bottles have been purchased in each state from January 2020 to December 2020?
+   ![2020_total_bottle_by_state_df_1-29](https://user-images.githubusercontent.com/106630710/202337768-51e86457-4493-4f01-ac0b-65583b1b9965.png)
+![2020_total_bottle_by_state_df_30-50](https://user-images.githubusercontent.com/106630710/202337786-e9da6652-2db9-41d5-b95d-0d0bca5b4808.png)
+  - per month
+  
+### Which state consumed the most wine?
+     - California: 130,312 bottles of wine ordered.
+### Which state consumed the least wine?
+     - Utah: 0 bottles of wine ordered. (Utah Prohibits shipping of alcohol)
+<img width="818" alt="2020_maxmin_total_bottles_by_state" src="https://user-images.githubusercontent.com/106630710/202337275-1abe3077-0ba4-43ea-ba89-b2e4540e12b5.png">
+
+### Which state saw the most significant change in wine consumption?
    INSERT IMAGE/GRAPH
-   - How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+   
+### How do wine shipments compare between states that had stay at home orders issued vs states that did not?
    INSERT GRAPH
-   - How do wine shipments compare between red states and blue states?
-   INSERT GRAPH/DF
-   - Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
+   
+### How do wine shipments compare between red states and blue states?
+   #### Red States: 
+    - Total Bottle Count for Red states in 2020: 338,744.
+  <img width="565" alt="2020_total_red_count" src="https://user-images.githubusercontent.com/106630710/202340028-7d070b9a-d91b-4b2b-bfee-6278c3d21664.png">
+### How many items/bottles have been purchased in each red state from January 2020 to December 2020?
+![2020_total_red_count_by_state](https://user-images.githubusercontent.com/106630710/202341287-4906715a-8e39-4332-9d52-1451877e5662.png)
+
+ ### Which Red state consumed the most wine?
+     - Florida: 82,961 bottles of wine ordered.
+ ### Which Red state consumed the least wine?
+     - Mississippi: 6 bottles of wine ordered. (Mississippi has prohibited the shipment of alcohol, though this order in particular may have confused the checks and balances in place because it was sent to Philedelphia, Mississippi.)
+     
+![2020_maxmin_total_red_by_state](https://user-images.githubusercontent.com/106630710/202337441-6ad862cd-e22a-4e07-b61f-dee36bfc9db0.png)
+### Summary Statistics for Red States
+<img width="481" alt="2020_red_summary_stat" src="https://user-images.githubusercontent.com/106630710/202337469-0f6e3536-4466-441c-ac63-7cad07650372.png">
+
+   #### Blue States: 
+    - Total Bottle Count for Blue states in 2020: 810,075.
+  <img width="577" alt="2020_total_blue_count" src="https://user-images.githubusercontent.com/106630710/202337492-c840138a-8133-4a65-8415-35475b154b30.png">
+    
+### How many items/bottles have been purchased in each red state from January 2020 to December 2020?
+![2020_total_blue_count_by_state](https://user-images.githubusercontent.com/106630710/202337513-4e58ae47-a7ec-4e3c-b8c6-72b05709d2f9.png)
+
+ ### Which Blue state consumed the most wine?
+     - California: 130,312 bottles of wine ordered.
+ ### Which Blue state consumed the least wine?
+     - Utah: 0 bottles of wine ordered. (Utah Prohibits shipping of alcohol)
+![2020_maxmin_total_blue_by_state](https://user-images.githubusercontent.com/106630710/202337527-5e0059f7-5067-425e-af2e-ff59846828f1.png)
+
+### Summary Statistics for Blue States
+<img width="501" alt="2020_blue_summary_stat" src="https://user-images.githubusercontent.com/106630710/202337543-6f4b50cb-9eed-4ccb-a1f1-03631b4efe40.png">
+
+ ### Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
    INSERT GRAPH
