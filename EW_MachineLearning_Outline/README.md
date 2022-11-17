@@ -31,9 +31,16 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
     - ***Option 1:*** Split data by taking random samples from each month of the year (ex: use train_test_split on January data, then February data, then March data, etc.) And then combine all the samples into training data representing all months, and test data representing all months.
     - ***Option 2:*** Split data by using the 2019 and 2020 data for training the model, and the 2021 data for testing the model.
 
-7. Future training of the model can occur by continuing to add the actual purchase data from each of the six wine companies to the dataset over time. This will increase the amount of data that the model can use to learn and can improve the accuracy of the model as well. ***Note: It is not guaranteed that the model accuracy will continue to improve indefinitely with increase in the amount of data. This may lead to overfitting, and the model should continuously be evaluated.***
+7. Altering and Optimizing the Model:
+    - Initially, Weight was included as a feature which produced an extremely accurate model. But this is because Weight is correlated to Item/Bottle Count, so it needs to be either removed completely, or treated as a second target variable.
+    - The data was also initially split into train and test datasets using the standard method. However, this was later changed to ensure that samples from all months of the year are included in the training and test sets. Once the method was customized, the model had a much better fit to the data.
+    - We also altered values for max_depth, which is the depth of the trees, or how many if/else statements occur until a decision is made. We used values 5, 10, 20, and “None”(default). After evaluating the model, it seems that the default value “None” provides the best model.
+    - We also altered values for n_estimators, or the number of trees in the forest. We used values 50, 150, and 100 (default). After evaluating the model, it seems that the default value of 100 provides the best model.
 
-8. Evaluating the model: 
+
+8. Future training of the model can occur by continuing to add the actual purchase data from each of the six wine companies to the dataset over time. This will increase the amount of data that the model can use to learn and can improve the accuracy of the model as well. ***Note: It is not guaranteed that the model accuracy will continue to improve indefinitely with increase in the amount of data. This may lead to overfitting, and the model should continuously be evaluated.***
+
+9. Evaluating the model: 
     - R-Squared: Once the model is fit with training data, it can be evaluated by calculating the R-squared value which determines how well the model (and the input features) can predict future outcomes.
     - Once the model is tested, the MSE, RMSE, and MAE scores can be calculated to show the differences between the actual vs. predicted values.
         - Mean Squared Error (MSE): The mean of the squared differences between predicted and target values.
