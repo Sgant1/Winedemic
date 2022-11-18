@@ -36,7 +36,7 @@
 ## Data Extraction and Inspection:
 - Each month .csv needed to be opened in excel and saved as a delimited file to be read properly in Jupyter Notebook.
 - Initially, .ipynb files titled "Combine_DataFrames_2020"(2021) were created to extract, inspect, clean, join and transfer but the code was lengthy and confusing, so individual .ipynb files were created for each month. 
-- "dirty_months_2020"(2021) are where edits were made, and then will be exported to the "cleaned_months_2020"(2021) folder. 
+- "dirty_months_2020"(2021) are where edits are made and will be exported to the "cleaned_months_2020"(2021) folder. 
 - Some of the months have dates in the "Created Date" column that are outside of the month in question. This is ok. Some orders were created but then a hold was placed until an adult was present to sign for the delivery. 
 
 ## Data Cleaning:
@@ -46,27 +46,127 @@
   - "Status"
   - "Zone"
 - Dropped NaN values 
-- Investigate the "Zip" column to determine if cleaning is necessary. (Some issues present with Machine Learning code)
 
 ## Data Transfer:
-- Files from the "cleaned_months_2020"(2021) folder will be read into the "Join_2020"(2021) file to create an annual data frame and .csv for each year. 
+- Files from the "cleaned_months_2020"(2021) folder will be read into the "Join_2020_and_Connect_SQL.ipynb"(2021) file to create an annual data frame and .csv for each year. 
 - These annual data frames will then be connected and transferred to pgAdmin.
 
 ## Next Steps:
 - Duplicate dirty_months_2020 and cleaned_months_2020 and then edit to 2021.
 - Complete cleaning.
-- Complete joining files into annual data frame and .csv for both 2020 and 2021.
+- Complete appending files into annual data frame and .csv for both 2020 and 2021.
+- Create ERD for pgAdmin tables.
 - Connect Pandas to pgAdmin.
 - Merge with Ashley's code to analyze our data to answer the questions presented in our Project Proposal.
 ________________________________________________________________________________________________________________________________________________________
 ## Week 2 Objectives:
 - Duplicate dirty_months_2020 and cleaned_months_2020 and then edit to 2021.
 - Complete cleaning.
-- Complete joining files into annual data frame and .csv for both 2020 and 2021.
+- Complete appending files into annual data frame and .csv for both 2020 and 2021.
+- Create ERD in pgAdmin and corresponding database.
 - Connect Pandas to pgAdmin.
 - Merge with Ashley's code to analyze our data to answer the questions presented in our Project Proposal.
-- Look at cleaning "States" excel file to create lockdown dates db.
+- Look at cleaning "States" excel file to create states_research db.
 
-## Cleaning 2020 and 2021:
+## Cleaning 2020, 2021, and State_Research:
 - Completed cleaning all 12 months of both 2020 and 2021 and pushed cleaned .csv files to AmandaMorgan Branch. Need to confirm that Winery3 was added to 2020 and 2021 data.
+- Continued to find small things that needed to be cleaned which resulted in multiple pushes.
+- Winery3 was added to the months that they were active, new files were pushed, all cleaning files were updated to read in the updated data.
+- Cleaned the date format in the State_Research file so all pages match.
+- Cleaned the Political Alignment column so all values are formatted similarly. 
+- Appended all five sheets of state info into one overall state_research df and exported to a .csv file.
+- 
+## Data Transfer:
+- The connection to pgAdmin was moved to the Join_2020_and_Connect_SQL.ipynb (2021)files and completed. 
+- Cleaned database was merged with pgAdmin and confirmed tables/columns/rows. 
+- A join was created in pgAdmin:
+  - Joining State_Research with Complete_2020 on “State”
+
+## Next Steps:
+- Connect Machine Learning with pgAdmin.
+- Begin preliminary analysis on answering our specific questions.
+- Begin looking at creating visuals with Matplotlib.
+- Update README
 ________________________________________________________________________________________________________________________________________________________
+## Week 3 Objectives: 
+- Week 2 Next Steps.
+
+## Machine Learning
+- Machine Learning connected successful to pgAdmin by team member Erica.
+
+## Preliminary Analysis:
+- Created a rough outline of questions we want to answer in Jupyter Notebook. Began researching how to split our annual df into state specific data frames.
+- isin() was used to slice copies of each specific state's order data.
+- Total Item/Bottle Count was calculated per state.
+- Working on creating a new df that includes the total Item/Bottle Count per state.
+- Began working with MatPlotLib to create a pie chart showcasing Item/Bottle Count per State. (The resulting chart was not a good choice to display this information.)
+
+## Next Steps:
+- Continue working on analysis. Once syntax works, it can be applied to 2021 data.
+  - Specific questions to be answered:
+   - How many items/bottles per month have been purchased in each state from January 2019 to December 2021?
+   - Which state consumed the most wine?
+   - Which state saw the most significant change in wine consumption?
+   - How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+   - How do wine shipments compare between red states and blue states?
+   - Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
+________________________________________________________________________________________________________________________________________________________
+## Week 4 Objectives:
+- Week 3 Next Steps.
+
+## Analysis:
+### What was the total bottle count for 2020 sales?
+    - Total bottle count for 2020 is 1,148,819.
+  <img width="492" alt="2020_total_bottle_count" src="https://user-images.githubusercontent.com/106630710/202337621-1a8b529a-041c-4a62-a0c0-9ab1dfd26fc0.png">
+
+### How many items/bottles have been purchased in each state from January 2020 to December 2020?
+   ![2020_total_bottle_by_state_df_1-29](https://user-images.githubusercontent.com/106630710/202337768-51e86457-4493-4f01-ac0b-65583b1b9965.png)
+![2020_total_bottle_by_state_df_30-50](https://user-images.githubusercontent.com/106630710/202337786-e9da6652-2db9-41d5-b95d-0d0bca5b4808.png)
+  - per month
+  
+### Which state consumed the most wine?
+     - California: 130,312 bottles of wine ordered.
+### Which state consumed the least wine?
+     - Utah: 0 bottles of wine ordered. (Utah Prohibits shipping of alcohol)
+<img width="818" alt="2020_maxmin_total_bottles_by_state" src="https://user-images.githubusercontent.com/106630710/202337275-1abe3077-0ba4-43ea-ba89-b2e4540e12b5.png">
+
+### Which state saw the most significant change in wine consumption?
+   INSERT IMAGE/GRAPH
+   
+### How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+   INSERT GRAPH
+   
+### How do wine shipments compare between red states and blue states?
+   #### Red States: 
+    - Total Bottle Count for Red states in 2020: 338,744.
+  <img width="565" alt="2020_total_red_count" src="https://user-images.githubusercontent.com/106630710/202340028-7d070b9a-d91b-4b2b-bfee-6278c3d21664.png">
+### How many items/bottles have been purchased in each red state from January 2020 to December 2020?
+![2020_total_red_count_by_state](https://user-images.githubusercontent.com/106630710/202341287-4906715a-8e39-4332-9d52-1451877e5662.png)
+
+ ### Which Red state consumed the most wine?
+     - Florida: 82,961 bottles of wine ordered.
+ ### Which Red state consumed the least wine?
+     - Mississippi: 6 bottles of wine ordered. (Mississippi has prohibited the shipment of alcohol, though this order in particular may have confused the checks and balances in place because it was sent to Philedelphia, Mississippi.)
+     
+![2020_maxmin_total_red_by_state](https://user-images.githubusercontent.com/106630710/202337441-6ad862cd-e22a-4e07-b61f-dee36bfc9db0.png)
+### Summary Statistics for Red States
+<img width="481" alt="2020_red_summary_stat" src="https://user-images.githubusercontent.com/106630710/202337469-0f6e3536-4466-441c-ac63-7cad07650372.png">
+
+   #### Blue States: 
+    - Total Bottle Count for Blue states in 2020: 810,075.
+  <img width="577" alt="2020_total_blue_count" src="https://user-images.githubusercontent.com/106630710/202337492-c840138a-8133-4a65-8415-35475b154b30.png">
+    
+### How many items/bottles have been purchased in each red state from January 2020 to December 2020?
+![2020_total_blue_count_by_state](https://user-images.githubusercontent.com/106630710/202337513-4e58ae47-a7ec-4e3c-b8c6-72b05709d2f9.png)
+
+ ### Which Blue state consumed the most wine?
+     - California: 130,312 bottles of wine ordered.
+ ### Which Blue state consumed the least wine?
+     - Utah: 0 bottles of wine ordered. (Utah Prohibits shipping of alcohol)
+![2020_maxmin_total_blue_by_state](https://user-images.githubusercontent.com/106630710/202337527-5e0059f7-5067-425e-af2e-ff59846828f1.png)
+
+### Summary Statistics for Blue States
+<img width="501" alt="2020_blue_summary_stat" src="https://user-images.githubusercontent.com/106630710/202337543-6f4b50cb-9eed-4ccb-a1f1-03631b4efe40.png">
+
+ ### Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
+   INSERT GRAPH
