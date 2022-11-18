@@ -46,7 +46,7 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
     -  Root Mean Squared Error: The square root of the average squared difference between predicted and actual values. This measurement is more sensitive to outliers and penalizes larger errors.
     - Mean Absolute Error: The average of the absolute error of difference between predicted and actual target values. This measurement is easiest to interpret for general audiences.
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/EvaluationFormulas.png" height="20%" width="20%">
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/EvaluationFormulas.png" height="50%" width="50%">
 
 
 ### Results:
