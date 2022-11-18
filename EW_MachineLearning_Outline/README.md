@@ -46,14 +46,21 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
     -  Root Mean Squared Error: The square root of the average squared difference between predicted and actual values. This measurement is more sensitive to outliers and penalizes larger errors.
     - Mean Absolute Error: The average of the absolute error of difference between predicted and actual target values. This measurement is easiest to interpret for general audiences.
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/EvaluationFormulas.png" height="50%" width="50%">
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/EvaluationFormulas.png" height="35%" width="35%">
 
 
 ### Results:
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Option1_CleanResults.png" height="50%" width="50%">
+As shown in the image below, the first option splitting the data into train and test sets resulted in good scores for our purposes. The trained model has an R-Squared value of around 0.78, which means that the input features have a 78% chance of predicting the target. The RMSE of 7.8 shows that the model’s prediction may be off by a weighted average of 7.8 bottles. The MAE score shows that the model’s average error for prediction is off by around 1.6 bottles. 
 
-As shown in the image above, the first option splitting the data into train and test sets resulted in good scores for our purposes. The trained model has an R-Squared value of around 0.78, which means that the input features have a 78% chance of predicting the target. The RMSE of 7.8 shows that the model’s prediction may be off by a weighted average of 7.8 bottles. The MAE score shows that the model’s average absolute error for prediction is off by around 1.6 bottles. 
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/NewResults1.png" height="50%" width="50%">
+
+Option 2 of splitting the data results in a lower R-Squared score for the trained data, but the RMSE and MAE are also lower which means there is a smaller difference in error between actual and predicted values. Option 2 also allows us to clearly visualize the model's predictions over time, and can easily be refactored to predict outcomes into the future.
+
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/NewResults2.png" height="50%" width="50%">
+
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Viz.png" height="50%" width="50%">
+
 
 
 ### References:
