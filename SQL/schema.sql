@@ -4,6 +4,17 @@
 --Includes at least one connection string (using SQALchemy or PyMongo) - DONE (I think) (Connected through pandas/JN)
 --Provide ERD with relationships- DONE
 
+CREATE TABLE "State Research" (
+	"State"  VARCHAR (40) NOT NULL,
+	Population INT NOT NULL,
+	Lockdown_Start VARCHAR (40) NOT NULL,
+	Initial_Expected_Lockdown_End VARCHAR (40) NOT NULL,
+	"Phase_1_Re-Opening_Start" VARCHAR (40) NOT NULL,
+	Political_Alignment VARCHAR (40) NOT NULL,
+	PRIMARY KEY ("State")
+);
+-- DROP TABLE "State Research" CASCADE;
+
 --2019 has not been imported yet, waiting on data to be provided and cleaned. 
 CREATE TABLE complete_2019 (
 	 "Order_Number" INT NOT NULL,
@@ -56,17 +67,7 @@ CREATE TABLE complete_2021 (
 );
 --drop syntax here in case we need to re-do anything.
 --DROP TABLE complete_2021 CASCADE;
-		
-CREATE TABLE "State Research" (
-	"State"  VARCHAR (40) NOT NULL,
-	Population INT NOT NULL,
-	Lockdown_Start VARCHAR (40) NOT NULL,
-	Intial_Expected_Lockdown_Start VARCHAR (40) NOT NULL,
-	"Phase_1_Re-Opening_Start" VARCHAR (40) NOT NULL,
-	Political_Alignment VARCHAR (40) NOT NULL,
-	PRIMARY KEY ("State")
-);
-DROP TABLE "State Research" CASCADE;
+
 		
 --SELECT COUNT(*) FROM complete_2019;
 SELECT COUNT(*) FROM complete_2020;
@@ -78,7 +79,7 @@ SELECT * FROM complete_2020
 LIMIT 5;
 
 SELECT * FROM "State Research"
-Limit 5;
+LIMIT 5;
 
 --Also confirmed by right clicking on "complete_2020" table in the left panel>properties>columns.
 --can edit PK and FK from the above directions as well.
@@ -89,23 +90,22 @@ LIMIT 10;
 
 
 -- Create new table for State that excludes population
-SELECT "State", "Lockdown Start", "Initial Expected Lockdown End", "Phase 1 Re-Opening Start", "Political Alignment"
+SELECT "State", "lockdown_start", "initial_expected_lockdown_end", "Phase_1_Re-Opening_Start", "political_alignment"
 INTO Joined_State_2020
 FROM "State Research";
---WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
---AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+
 -- Check the table
 SELECT * FROM Joined_State_2020
 Limit 5
 
 --Join State Research with complete_2020 on "State"
 SELECT c."State",
-     c."Created Date",
-     c."Item/Bottle Count",
-	 J."Lockdown Start",
-	 J."Initial Expected Lockdown End",
-	 J."Phase 1 Re-Opening Start",
-	 J."Political Alignment"
+     c."created_date",
+     c."Item/Bottle_Count",
+	 J."lockdown_start",
+	 J."initial_expected_lockdown_end",
+	 J."Phase_1_Re-Opening_Start",
+	 J."political_alignment"
 FROM "complete_2020" AS c
 INNER JOIN Joined_State_2020 AS J
 ON J."State" = c."State";
