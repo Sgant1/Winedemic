@@ -1,28 +1,28 @@
 State,State Full Name,Population,Population Density ,Household Size,% Uninsured,% Living in Poverty,% Population 65+,Lockdown Start,"Inital Expected
 Lockdown End","Phase 1
 Re-Opening Start",Notes,Shipping Laws/Restrictions,Max Shipping Amount,Politcal Alignment Red vs. Blue 2020,,
-ID,Idaho,"1,787,065",21.62,2.68,11,13.8,16.27,3/25/2020,4/30/2020,5/1/2020,,Wine; requires direct shipper permit,Cannot exceed 24 nine-liter cases of wine annually.,red,,
+ID,Idaho,"1,787,065",21.62,2.68,11,13.8,16.27,3/25/2020,4/30/2020,5/1/2020,,Wine; requires direct shipper permit,Cannot exceed 24 nine-liter cases of wine annually.,Red,,
 KS,Kansas,"2,913,314",35.63,2.52,9,12.4,16.32,3/30/2020,4/19/2020,5/4/2020,"On 05/26/2020 Kansas Govenor ""announced 
 that all state-wide orders would be recinded 
 and shift to guidance only, and that lifting or 
 maintaing restrictions would now become the 
 responsibility of individual counties.""",Wine; requires special order shipping license,"Cannot exceed 12 standard cases of wine of one brand
 or a combination of brands into this state to any one 
-consumer or address per calendar year.",red,,https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Kansas#Lifting_of_restrictions
+consumer or address per calendar year.",Red,,https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Kansas#Lifting_of_restrictions
 MA,Massachusetts,"6,892,503",883.65,2.53,2.8,10.8,16.97,3/23/2020,3/31/2020,5/18/2020,", 04/28/2020 and 05/15/2020",Wine; requires direct wine shipper license,"A direct wine shipper licensee may ship up to 
 12 cases of wine, containing not more than 
-9 liters of wine per case, per year to a resident of the commonwealth.",blue,,
+9 liters of wine per case, per year to a resident of the commonwealth.",Blue,,
 NM,New Mexico,"2,096,829",17.29,2.64,10.7,20,18.01,3/13/2020,4/30/2020,5/15/2020,,"Wine; requires direct wine shipment permit.
 N.M. Stat. Ann. §60-6A-11
 Wine or cider
 B. A person issued a winegrower's license pursuant to this section may do any of the following: 
 (15) in accordance with the provisions of this section that relate to the sale of wine or cider, 
 accept and fulfill an order for wine or cider that is placed via an internet website, whether the 
-financial transaction related to the order is administered by the licensee or the licensee's agent.",Not more than two 9-liter cases of wine monthly,blue,,
+financial transaction related to the order is administered by the licensee or the licensee's agent.",Not more than two 9-liter cases of wine monthly,Blue,,
 NY,New York,"19,453,561",412.8,2.6,6.5,14.6,16.94,3/22/2020,4/6/2020,6/8/2020,", extended to 04/29/2020, then 05/15/2020, then 05/28/2020",Wine; requires out-of-state direct shipper’s license,"No more than 36 cases (no more than nine liters each case) 
-of wine produced by such license holder per year.",blue,,
-PA,Pennsylvania,"12,801,989",286.12,2.46,6.2,12.8,18.7,3/23/2020,4/30/2020,5/15/2020,"03/19/20 inital non-essential buisness close, 03/23/20 lockodwn order in seven counties, counties continued to be added to the lockdown orders until state-wide shut down order on 04/01/2020.",Wine; requires direct wine shipper license,Up to 36 cases of up to nine liters per case in a calendar year of any wine.,blue,,
-RI,Rhode Island,"1,059,361","1,024.53",2.47,5.2,13.1,17.66,3/28/2020,4/13/2020,5/9/2020,,Consumer must be present at purchase. Unlawful to ship.,0- Unlawful to ship from out of state.,blue,,
+of wine produced by such license holder per year.",Blue,,
+PA,Pennsylvania,"12,801,989",286.12,2.46,6.2,12.8,18.7,3/23/2020,4/30/2020,5/15/2020,"03/19/20 inital non-essential buisness close, 03/23/20 lockodwn order in seven counties, counties continued to be added to the lockdown orders until state-wide shut down order on 04/01/2020.",Wine; requires direct wine shipper license,Up to 36 cases of up to nine liters per case in a calendar year of any wine.,Blue,,
+RI,Rhode Island,"1,059,361","1,024.53",2.47,5.2,13.1,17.66,3/28/2020,4/13/2020,5/9/2020,,Consumer must be present at purchase. Unlawful to ship.,0- Unlawful to ship from out of state.,Blue,,
 SD,South Dakota,"884,659",11.67,2.43,9.4,13.6,17.17,1/1/1111,1/1/1111,1/1/1111,"Never issued a stay-at-home order, no specific date to re-open as they never closed","Wine, requires wine direct shipping license","S.D. Codified Laws Ann. §35-12B-5
 No direct shipper may ship more than 12 cases of wine, 
 containing no more than 9 liters per case, in any calendar 
@@ -30,10 +30,11 @@ year to any person for personal use under this chapter.
 S.D. Codified Laws Ann. §35-12B-8
 No person may receive more than 12 cases of wine, 
 containing no more than 9 liters per case, in any calendar 
-year for personal use under this chapter.",red,,
+year for personal use under this chapter.",Red,,
 VT,Vermont,"623,989",67.7,2.31,4.1,11.2,20.04,3/25/2020,4/10/2020,5/15/2020,,"Malt beverages or wine; requires in-state consumer shipping license 
 or out-of-state consumer shipping license","A licensee shall not ship more than 12 cases of malt beverages containing 
 no more than 36 gallons of malt beverages or no more than 12 cases of 
 vinous beverages containing no more than 29 gallons of vinous beverages 
-to any one Vermont resident in any calendar year.",blue,,
-WA,Washington,"7,614,893",114.59,2.55,6.8,11.5,15.89,3/24/2020,4/3/2020,5/29/2020,,Wine; requires wine shipper’s permit,No hard limits on quantity.,blue,,
+to any one Vermont resident in any calendar year.",Blue,,
+WA,Washington,"7,614,893",114.59,2.55,6.8,11.5,15.89,3/24/2020,4/3/2020,5/29/2020,,Wine; requires wine shipper’s permit,No hard limits on quantity.,Blue,,
+DC,District of Columbia,"705,749","11,544",2.29,4,16.8,12.38,4/1/2020,4/24/2020,5/29/2020,,"Wine, spirits or beer; requires manufacturer’s, wholesaler’s, common carrier’s or retailer’s license",Cannot exceed one case per location in any one calendar month for delivery to any one person.,Blue,,
