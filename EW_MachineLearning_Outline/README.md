@@ -51,15 +51,17 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
 
 ### Results:
 
-As shown in the image below, the first option splitting the data into train and test sets resulted in good scores for our purposes. The trained model has an R-Squared value of around 0.78, which means that the input features have a 78% chance of predicting the target. The RMSE of 7.8 shows that the model’s prediction may be off by a weighted average of 7.8 bottles. The MAE score shows that the model’s average error for prediction is off by around 1.6 bottles. 
+As shown in the image below, the first option splitting the data into train and test sets resulted in good scores for our purposes. The trained model has an R-Squared value of around 0.78, which means that the input features have a 78% chance of predicting the target. The RMSE of 7.8 shows that the model’s prediction may be off by a weighted average of 7.8 bottles. The MAE score shows that the model’s average error is off by around 1.6 bottles. 
 
 <img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/NewResults1.png" height="50%" width="50%">
 
-Option 2 of splitting the data results in a lower R-Squared score for the trained data, but the RMSE and MAE are also lower which means there is a smaller difference in error between actual and predicted values. Option 2 also allows us to clearly visualize the model's predictions over time, and can easily be refactored to predict outcomes into the future.
+Option 2 of splitting the data results in model with a lower R-Squared score for the trained data and a higher MAE, but has a lower RMSE than Option 1. The R-Squared value of around 0.68 means that the input features have a 68% chance of predicting the target (10% less than Option 1). The MAE of 1.8 is higher than Option 1, which means the average error is slightly greater. However, the RMSE is around 3, which means that the model’s weighted error is only off by about 3 bottles. 
 
 <img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/NewResults2.png" height="50%" width="50%">
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Viz.png" height="50%" width="50%">
+Option 2 also allows us to clearly visualize the model's predictions over time and can be refactored to predict outcomes into the future. Below is an image of the actual number of bottles purchased over time compared to the model’s predictions on the last 6 months.
+
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Viz.png">
 
 
 
