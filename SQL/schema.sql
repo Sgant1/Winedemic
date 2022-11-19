@@ -1,9 +1,3 @@
---Database stores static data for use during the project- (So far have connected States, 2020, and 2021. Waiting on 2019 data)
---Database interfaces with the project in some format (connects to the model)- Erica
---Includes at least one join using the database language (not including pandas) -Create DB that has top 10 wine sales by state joined with the information from the states table?
---Includes at least one connection string (using SQALchemy or PyMongo) - DONE (I think) (Connected through pandas/JN)
---Provide ERD with relationships- DONE
-
 --2019 has not been imported yet, waiting on data to be provided and cleaned. 
 CREATE TABLE complete_2019 (
 	 "Order_Number" INT NOT NULL,
@@ -20,7 +14,7 @@ CREATE TABLE complete_2019 (
      FOREIGN KEY ("State") REFERENCES "State Research" ("State")
 );
 --drop syntax here in case we need to re-do anything.
---DROP TABLE complete_2019 CASCADE;
+DROP TABLE complete_2019 CASCADE;
 
 --2020 has been imported and confirmed.
 CREATE TABLE complete_2020 (
@@ -68,7 +62,7 @@ CREATE TABLE "State Research" (
 );
 DROP TABLE "State Research" CASCADE;
 		
---SELECT COUNT(*) FROM complete_2019;
+SELECT COUNT(*) FROM complete_2019;
 SELECT COUNT(*) FROM complete_2020;
 SELECT COUNT(*) FROM complete_2021;
 SELECT COUNT (*) FROM "State Research";
@@ -77,6 +71,8 @@ SELECT COUNT (*) FROM "State Research";
 SELECT * FROM complete_2020
 LIMIT 5;
 
+SELECT * FROM complete_2019
+LIMIT 5;
 SELECT * FROM "State Research"
 Limit 5;
 
