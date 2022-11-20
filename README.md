@@ -8,25 +8,6 @@ This project focuses on how the COVID-19 pandemic impacted wine sales throughout
 
 We were motivated to begin this project as three of our team members work in the wine industry and we all consider ourselves wine enthusiasts. The COVID-19 pandemic impacted all industries including wine producers and sellers. We noticed changes in how much wine people seemed to be consuming throughout the COVID-19 pandemic and we intend to try and prove (or disprove) this trend with data.
 
-# Communication Protocols
-
-As our group consists of five members, our roles didn't fit exactly into the Square/ Circle/ Triangle/ X roles as outlined in the module. 
-
-We broke task management down as follows:
-
-Square Role: Steve: Collect/Clean the data. GitHub Dashboard Manager
-
-Circle Role: Amanda: Code Outline, joining data sets, Pseudocode SQL interface. Ashley: Pseudocode for analysis
-
-Triangle Role: Erica: Machine Learning (find out if our analysis will be applicable for machine learning) Visuals
-
-X Role: Zack: ‘Technology.md’ file in branch
-
-Other: Ashley: Task Management, README.md, logo development, Rubric Alignment
-
-All: complete state spreadsheet
-
-We communicate via Slack daily and have been working consistently together on Mondays and Wednesdays.
 
 # Data
 
@@ -82,25 +63,43 @@ The goal of the Machine Learning model is to predict ‘Item/Bottle Count’ per
 
 [EW_MachineLearning_Outline](https://github.com/Sgant1/Final_Project/tree/main/EW_MachineLearning_Outline)
 
-# Summary
+## Questions Answered
 
-Questions We Hope to Answer
+- [ ]  Which state received the most wine shipments?
 
-- [ ]  How many items/bottles per month have been purchased in each state from January 2019 to December 2021?
+![2019_2020_2021_top_6_states](https://github.com/Sgant1/Final_Project/blob/17846cfc249953e0ffdc59c8a8736a8a71cfd974/images/2019_2020_2021_top_6_states.png)
+
+California and New York consistently landed in the top 2!
+
+Florida, Pennsylvania and Texas battled it out for the next three spots.
+
+Honorable mentions to Illinois and New Jersey.
 
 - [ ]  Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
 
-- [ ]  How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+![]()
 
 - [ ]  How do wine shipments compare between red states and blue states?
 
-- [ ]  Which state consumed the most wine?
+![]()
+
+- [ ]  How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+
+![]()
 
 - [ ]  Which state saw the most significant change in wine consumption?
+
+![]()
+
+![]()
 
 Link to Google Sheets - https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.g1861b40c787_0_122
  
 **Limitations**
+ 
+ 
+**Recomendations**
+
  
 # Software
  
