@@ -8,25 +8,6 @@ This project focuses on how the COVID-19 pandemic impacted wine sales throughout
 
 We were motivated to begin this project as three of our team members work in the wine industry and we all consider ourselves wine enthusiasts. The COVID-19 pandemic impacted all industries including wine producers and sellers. We noticed changes in how much wine people seemed to be consuming throughout the COVID-19 pandemic and we intend to try and prove (or disprove) this trend with data.
 
-# Communication Protocols
-
-As our group consists of five members, our roles didn't fit exactly into the Square/ Circle/ Triangle/ X roles as outlined in the module. 
-
-We broke task management down as follows:
-
-Square Role: Steve: Collect/Clean the data. GitHub Dashboard Manager
-
-Circle Role: Amanda: Code Outline, joining data sets, Pseudocode SQL interface. Ashley: Pseudocode for analysis
-
-Triangle Role: Erica: Machine Learning (find out if our analysis will be applicable for machine learning) Visuals
-
-X Role: Zack: ‘Technology.md’ file in branch
-
-Other: Ashley: Task Management, README.md, logo development, Rubric Alignment
-
-All: complete state spreadsheet
-
-We communicate via Slack daily and have been working consistently together on Mondays and Wednesdays.
 
 # Data
 
@@ -82,25 +63,92 @@ The goal of the Machine Learning model is to predict ‘Item/Bottle Count’ per
 
 [EW_MachineLearning_Outline](https://github.com/Sgant1/Final_Project/tree/main/EW_MachineLearning_Outline)
 
-# Summary
+## Questions Answered
 
-Questions We Hope to Answer
+- [ ]  Which state received the most wine shipments?
 
-- [ ]  How many items/bottles per month have been purchased in each state from January 2019 to December 2021?
+![2019_2020_2021_top_6_states](https://github.com/Sgant1/Final_Project/blob/17846cfc249953e0ffdc59c8a8736a8a71cfd974/images/2019_2020_2021_top_6_states.png)
+
+California and New York consistently landed in the top 2!
+
+Florida, Pennsylvania and Texas battled it out for the next three spots.
+
+Honorable mentions to Illinois and New Jersey.
 
 - [ ]  Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
 
-- [ ]  How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+![US_yearly_bottles_shipped_by_month_with_NY](https://github.com/Sgant1/Final_Project/blob/308334a2fd3522f4722320f9098f806a8192a993/images/US_yearly_bottles_shipped_by_month_with_NY.png)
+
+![blue_vs_red_yearly_by_month](https://github.com/Sgant1/Final_Project/blob/308334a2fd3522f4722320f9098f806a8192a993/images/blue_vs_red_yearly_by_month.png)
+
+There is a clear jump in wine shipments across the US during COVID-19 Shelter In Place advisories, regardless of each state’s level of enforcement strictness.
+
+October-November-December(OND) is traditionally considered wine industry peak shipping time.
+
+January-February-March is considered the “Slow Season”.
+
+
 
 - [ ]  How do wine shipments compare between red states and blue states?
 
-- [ ]  Which state consumed the most wine?
+![yearly_bottles_shipped_by_political_alignment](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/yearly_bottles_shipped_by_political_alignment.png)
+
+Blue states have more fun! --with wine! 
+
+Blue states dominate wine shipments accross all three years.  Though, Red states did steadily increase their slice of the pie from year to year.
+
+- [ ]  How do wine shipments compare between states that had stay at home orders issued vs states that did not?
+
+California was the state considered to have the most strict COVID-19 response precautionary ordinances.
+
+![CA_yearly_wines_shipped_by_month_with_notes](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/CA_yearly_wines_shipped_by_month_with_notes.png)
+
+Iowa was the state considered to have the most lax COVID-19 response precautionary ordinances.
+
+![IA_yearly_wines_shipped_by_month_with_notes.](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/IA_yearly_wines_shipped_by_month_with_notes.png)
+
+General trends in 2020 wine shipments were consistent regardless of a state's COVID-19 ordinances. 
 
 - [ ]  Which state saw the most significant change in wine consumption?
 
+![change_2019_to_2020](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/change_2019_to_2020.png)
+
+New York
+-71,229 bottles shipped
+
+
+Florida
++27,057 bottles shipped
+
+![change_2020_2021](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/change_2020_2021.png)
+
+California
+-20,792 bottles shipped
+
+Hawaii
++1,443 bottles shipped
+
+Most states decreased in total bottles shipped to them from 2020 to 2021
+
+
+# Presentation
+
 Link to Google Sheets - https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.g1861b40c787_0_122
+
+# Tableau Dashboard
+
+Link ()
  
+ 
+# Summary
+
 **Limitations**
+ 
+ 
+**Recomendations**
+
+- Calculate wine bottles shipped per capita and see if any of our findings differ when considering a states wine shipments to its population density
+
  
 # Software
  
