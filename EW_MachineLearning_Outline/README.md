@@ -51,17 +51,17 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
 
 ### Results:
 
-As shown in the image below, the first option splitting the data into train and test sets resulted in good scores for our purposes. The trained model has an R-Squared value of around 0.78, which means that the input features have a 78% chance of predicting the target. The RMSE of 7.8 shows that the model’s prediction may be off by a weighted average of 7.8 bottles. The MAE score shows that the model’s average error is off by around 1.6 bottles. 
+As shown in the image below, the first option splitting the data into train and test sets resulted in good scores for our purposes. The trained model has an R-Squared value of around 0.86, which means that the input features have a 86% chance of predicting the target. The RMSE of 12.7 shows that the model’s prediction may be off by a weighted average of 12.7 bottles. The MAE score shows that the model’s average error is off by around 1.8 bottles. 
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/NewResults1.png" height="50%" width="50%">
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/All3Years_Option1.png" height="50%" width="50%">
 
-Option 2 of splitting the data results in model with a lower R-Squared score for the trained data and a higher MAE, but has a lower RMSE than Option 1. The R-Squared value of around 0.68 means that the input features have a 68% chance of predicting the target (10% less than Option 1). The MAE of 1.8 is higher than Option 1, which means the average error is slightly greater. However, the RMSE is around 3, which means that the model’s weighted error is only off by about 3 bottles. 
+Option 2 of splitting the data results in a model with a higher R-Squared score for the trained data, a lower RMSE, and a slightly greater MAE than Option 1. The R-Squared value of around 0.87 means that the input features have a 87% chance of predicting the target (1% more than Option 1). The RMSE is around 10.5, which means that the model’s weighted error is off by about 10.5 bottles. Lastly, the MAE is about 1.9 which means there is an average error of 1.9 bottles.
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/NewResults2.png" height="50%" width="50%">
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/All3Years_Option2.png" height="50%" width="50%">
 
-Option 2 also allows us to clearly visualize the model's predictions over time and can be refactored to predict outcomes into the future. Below is an image of the actual number of bottles purchased over time compared to the model’s predictions on the last 6 months.
+Option 2 also allows us to clearly visualize the model's predictions for the last six months of data and can be refactored to predict outcomes into the future. Below is an image of the actual number of bottles purchased over time compared to the model’s predictions on the last six months.
 
-<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/Viz.png">
+<img src="https://github.com/Sgant1/Final_Project/blob/erica/EW_MachineLearning_Outline/Images/VizAll3Years.png">
 
 
 
