@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 --Database stores static data for use during the project- (So far have connected States, 2019, 2020, and 2021.)
 --Database interfaces with the project in some format (connects to the model)- Erica
 --Includes at least one join using the database language (not including pandas) -Create DB joining all three years and States.
@@ -17,7 +15,6 @@ CREATE TABLE "State Research" (
 );
 -- DROP TABLE "State Research" CASCADE;
 
->>>>>>> main
 --2019 has been imported and confirmed. 
 CREATE TABLE complete_2019 (
 	 "Order_Number" INT NOT NULL,
@@ -34,7 +31,7 @@ CREATE TABLE complete_2019 (
      FOREIGN KEY ("State") REFERENCES "State Research" ("State")
 );
 --drop syntax here in case we need to re-do anything.
-DROP TABLE complete_2019 CASCADE;
+--DROP TABLE complete_2019 CASCADE;
 
 --2020 has been imported and confirmed.
 CREATE TABLE complete_2020 (
