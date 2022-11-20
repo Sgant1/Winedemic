@@ -91,17 +91,45 @@ January-February-March is considered the “Slow Season”.
 
 - [ ]  How do wine shipments compare between red states and blue states?
 
-![]()
+![yearly_bottles_shipped_by_political_alignment](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/yearly_bottles_shipped_by_political_alignment.png)
+
+Blue states have more fun! --with wine! 
+
+Blue states dominate wine shipments accross all three years.  Though, Red states did steadily increase their slice of the pie from year to year.
 
 - [ ]  How do wine shipments compare between states that had stay at home orders issued vs states that did not?
 
-![]()
+California was the state considered to have the most strict COVID-19 response precautionary ordinances.
+
+![CA_yearly_wines_shipped_by_month_with_notes](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/CA_yearly_wines_shipped_by_month_with_notes.png)
+
+Iowa was the state considered to have the most lax COVID-19 response precautionary ordinances.
+
+![IA_yearly_wines_shipped_by_month_with_notes.](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/IA_yearly_wines_shipped_by_month_with_notes.png)
+
+General trends in 2020 wine shipments were consistent regardless of a state's COVID-19 ordinances. 
 
 - [ ]  Which state saw the most significant change in wine consumption?
 
-![]()
+![change_2019_to_2020](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/change_2019_to_2020.png)
 
-![]()
+New York
+-71,229 bottles shipped
+
+
+Florida
++27,057 bottles shipped
+
+![change_2020_2021](https://github.com/Sgant1/Final_Project/blob/6c6317cc8272cf8b5e88f644b86b4f46e29475b3/images/change_2020_2021.png)
+
+California
+-20,792 bottles shipped
+
+Hawaii
++1,443 bottles shipped
+
+Most states decreased in total bottles shipped to them from 2020 to 2021
+
 
 # Presentation
 
