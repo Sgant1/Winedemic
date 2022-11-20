@@ -77,7 +77,17 @@ Honorable mentions to Illinois and New Jersey.
 
 - [ ]  Is there a time of year where wine shipments increased? For example, during the holidays or during COVID stay-at-home orders?
 
-![]()
+![US_yearly_bottles_shipped_by_month_with_NY](https://github.com/Sgant1/Final_Project/blob/308334a2fd3522f4722320f9098f806a8192a993/images/US_yearly_bottles_shipped_by_month_with_NY.png)
+
+![blue_vs_red_yearly_by_month](https://github.com/Sgant1/Final_Project/blob/308334a2fd3522f4722320f9098f806a8192a993/images/blue_vs_red_yearly_by_month.png)
+
+There is a clear jump in wine shipments across the US during COVID-19 Shelter In Place advisories, regardless of each state’s level of enforcement strictness.
+
+October-November-December(OND) is traditionally considered wine industry peak shipping time.
+
+January-February-March is considered the “Slow Season”.
+
+
 
 - [ ]  How do wine shipments compare between red states and blue states?
 
