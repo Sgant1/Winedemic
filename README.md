@@ -147,6 +147,8 @@ Link ()
  
 **Recomendations**
 
+- Calculate wine bottles shipped per capita and see if any of our findings differ when considering a states wine shipments to its population density
+
  
 # Software
  
