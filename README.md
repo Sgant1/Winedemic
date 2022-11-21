@@ -58,7 +58,7 @@ We have compiled a spreadsheet with specific information as it pertains to each 
 
 **ERD**
 
-![Working_ERD_No_Code.png](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/Working_ERD_No_Code.png)
+![ERD](https://github.com/Sgant1/Final_Project/blob/eba177e619ff5b3cecaa3a3d7ff2b1c538072741/SQL/ERD.png)
 
 **Database Set-up Code**
 
