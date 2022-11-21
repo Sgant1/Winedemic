@@ -1,6 +1,11 @@
-# Winedemic
-
-![image](https://user-images.githubusercontent.com/107363048/200133140-a924ad40-e17a-4a36-8d59-7ecb27e20cd2.png)
+<h1 align="center"><u>Winedemic</u></h1>
+<p align="center">
+<b> </b>Ashley Virga, Erica Weed, Amanda Morgan, Zack Freskan, & Steve Gant 
+</p>
+ 
+<p align="center">
+  <img width="300" src="https://user-images.githubusercontent.com/107363048/200133140-a924ad40-e17a-4a36-8d59-7ecb27e20cd2.png">
+</p>
 
 # Introduction
 
