@@ -186,6 +186,8 @@ NumPy v.
 
 SciPy v.
 
+[SQLAlchemy 1.4.32](https://www.sqlalchemy.org/blog/2022/03/06/sqlalchemy-1.4.32-released/ "SQLAlchemy 1.4.32")
+
 [TensorFlow 2.10.0](https://www.tensorflow.org/versions "TensorFlow 2.10.0")
 
 [Scikit Learn 1.0](https://scikit-learn.org/stable/install.html "Scikit Learn 1.0")
