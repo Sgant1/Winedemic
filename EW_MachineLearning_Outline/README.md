@@ -81,35 +81,3 @@ Scikit Learn 1.0
 TensorFlow 2.10.0
 
 SQLAlchemy 1.4.32
-
-
-
-
-
-
-**Description of Machine Learning model:**
-
-The goal of the machine learning model is to be able to predict ‘Item/Bottle Count. By using the available data from 2019, 2020 and 2021, we can create a regression model that will predict wine purchasing trends over time. 
-
-Initially we considered using a categorical model to predict a category range of ‘Item/Bottle Count’ and it seemed like a categorical model would be more accurate. However, we eventually concluded that it is more useful to have a regression model to predict a numerical value for purchasing trends over time, and when comparing the accuracy scores between the two types of models, the regression model scored pretty well. In addition, we have also altered the methods of splitting up the training and testing data. Initially we used the standard train_test_split() method on all the available data. Then we tried to customize the training data by ensuring we had samples from every month. Lastly, we decided that the most useful and reproducible way to split the data was by time period and training the model with past purchasing data and testing the model on the most recent available data. 
-
-We used the Random Forest Regressor model to make these predictions. Random Forest models are usually more accurate than single Decision Tree models and typically have a lower chance of overfitting the data. Random Forest models are also easier to use compared to neural networks because the input features do not need to be scaled in order to produce acceptable results, and they don’t usually need as much optimizing or tuning (no need to determine the optimal number of units, layers, epochs, etc.). However, it is important to be aware that Random Forest models cannot extrapolate values that fall outside of the training data, so the model will only be able to predict within the range of values that it has seen before. 
-
-Our input features will be the Company Name, City, State, and Created Date (Year, Month, and Day), and the target will be the ‘Item/Bottle Count’. We can drop the ‘Order Number’ column to reduce unnecessary noise because the order identification should not have any influence over the output. ‘Ship Date’ can also be dropped because we only want to focus on the date the order was created, whereas keeping ‘Ship Date’ may confuse the model. ‘Zip’ can be dropped because ‘City’ and ‘State’ should provide enough information to the model to produce acceptable results. In addition, the model cannot interpret categorical data, so the ‘City’ and ‘State’ columns need to be encoded and converted to numerical datatypes. ‘Weight’ can also be dropped because the values can be inferred from the target variable ‘Item/Bottle Count’. 
-
-From the 3 years of available data, we used the first 2.5 years for training and then tested it on the last six months of data. The first 2.5 years includes data during COVID lockdown and captures some of the extreme outliers that occurred during that time. We then used the test data to predict ‘Item/Bottle Count’ for the last six months of 2021.
-
-The accuracy of the model can be scored by calculating the R-squared value, Root Mean Squared Error, and Mean Absolute Error. This will help us measure how well the model performs, and the differences between the actual vs. predicted target values.
-
-- Current Scores:
-    - Training R-Squared: 0.87
-    - Test R-Squared: -7.9
-    - RMSE: 10.5
-    - MAE: 1.9
-
-Further training of the model could involve adding new purchase data as it occurs over time into the training data set and continuing to use the model to predict ‘Item/Bottle Count’. As the model continues to learn from more and more data, it’s prediction accuracy should increase as well. This could allow wine companies to more accurately predict purchasing trends into the future. 
-
-To learn more about our Machine Learning model, see our outline here:
-[MachineLearning_Outline](https://github.com/Sgant1/Final_Project/tree/main/EW_MachineLearning_Outline)
-
-## Questions Answered
