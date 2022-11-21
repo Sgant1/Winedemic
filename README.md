@@ -190,4 +190,4 @@ Tableau v. [22.3.1649.0](https://public.tableau.com/app/discover "Tableau")
 
 Google Sheets v.
 
-Goodle Slides v.
+Google Slides v. [Presentation](https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.p "Link to google slides")
