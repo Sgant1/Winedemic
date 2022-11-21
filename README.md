@@ -186,6 +186,8 @@ NumPy v.
 
 SciPy v.
 
-Tableau v.
+Tableau v. [22.3.1649.0](https://public.tableau.com/app/discover "Tableau")
 
 Google Sheets v.
+
+Goodle Slides v.
