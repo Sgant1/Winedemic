@@ -186,6 +186,8 @@ NumPy v.
 
 SciPy v.
 
+[Scikit Learn 1.0](https://scikit-learn.org/stable/install.html "Scikit Learn 1.0")
+
 [Tableau 22.3.1649.0](https://public.tableau.com/app/discover "Tableau")
 
 [Google Sheets](https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.p "Link to Google Sheets")
