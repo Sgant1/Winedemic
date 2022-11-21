@@ -71,7 +71,7 @@ From the 3 years of available data, we used the first 2.5 years for training and
 
 The accuracy of the model can be scored by calculating the R-squared value, Root Mean Squared Error, and Mean Absolute Error. This will help us measure how well the model performs, and the differences between the actual vs. predicted target values.
 
--Current Scores:
+- Current Scores:
     - Training R-Squared: 0.87
     - Test R-Squared: -7.9
     - RMSE: 10.5
