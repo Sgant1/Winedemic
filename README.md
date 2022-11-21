@@ -176,7 +176,7 @@ Most states decreased in total bottles shipped to them from 2020 to 2021
  
 # Software
  
-Python v.
+[Python 3.7.13](https://www.python.org/downloads/release/python-3713/ "Python 3.7.13")
 
 Pandas v.
 
@@ -186,8 +186,8 @@ NumPy v.
 
 SciPy v.
 
-Tableau v. [22.3.1649.0](https://public.tableau.com/app/discover "Tableau")
+[Tableau 22.3.1649.0](https://public.tableau.com/app/discover "Tableau")
 
-Google Sheets v. [Data](https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.p "Link to Google Sheets")
+[Google Sheets](https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.p "Link to Google Sheets")
 
-Google Slides v. [Presentation](https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.p "Link to Google Slides")
+[Google Slides](https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.p "Link to Google Slides")
