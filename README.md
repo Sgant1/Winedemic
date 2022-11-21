@@ -30,17 +30,19 @@ Team member Steve Gant is employed by a 3rd party logistics company and has been
 
 Three of the companies are e-commerce based companies--wine sellers who offer wines from multiple producers, and three are wineries selling their products direct to consumers. Below we've included some additional information about each company included in our data set.
 
-- **Ecom1** : All online sales based. Promotes primarily 3 bottle & 6 bottle pack boxes.
+- **Ecommerce**
+    - **Customer 1.** All online sales based. Promotes primarily 3 bottle & 6 bottle pack boxes.
 
-- **Ecom2** : Only ships 2 bottle pack orders. Wine club shipments are shipped out monthly. Primarily a gift based program. Did not ship out wine for the months of February 2020 or March 2020.
+    - **Customer 2.** Only ships 2 bottle pack orders. Wine club shipments are shipped out monthly. Primarily a gift based program. Did not ship out wine for the months of February 2020 or March 2020.
 
-- **Ecom3** : Wine imports were a big struggle for this company. Pandemic related international shipping delays led to lack of product to sell.  Experienced more volume purchases than quality. COVID surcharge from carriers cut into profitability reducing money spend on marketing.
+    - **Customer 3.** Wine imports were a big struggle for this company. Pandemic related international shipping delays led to lack of product to sell.  Experienced more volume purchases than quality. COVID surcharge from carriers cut into profitability reducing money spend on marketing.
 
-- **Winery1** : Tasting room shut down until 2021.  Does a 4 bottle package wine club shipment every quarter. Reopened early 2021 with redesign of outdoor seating to accommodate tastings at the winery.
+- **Winery**
+    - **Customer 1.** Tasting room shut down until 2021.  Does a 4 bottle package wine club shipment every quarter. Reopened early 2021 with redesign of outdoor seating to accommodate tastings at the winery.
 
-- **Winery2** : No tasting room, but were not able to perform private tastings due to COVID-19 shutdowns and restrictions. Bottle prices are on the high end in comparison to the average winery. With most consumers choosing to buy in volume over quality, overall sales losses were noted by the company even though our data was not able to include this information.
+    - **Customer 2.** No tasting room, but were not able to perform private tastings due to COVID-19 shutdowns and restrictions. Bottle prices are on the high end in comparison to the average winery. With most consumers choosing to buy in volume over quality, overall sales losses were noted by the company even though our data was not able to include this information.
 
-- **Winery3** : Small production winery. Club 2 times a year in spring, then again in fall. Tasting room at owners house, was not open for Covid. Customer held orders for 2021 in October, November, December.
+    - **Customer 3.** Small production winery. Club 2 times a year in spring, then again in fall. Tasting room at owners house, was not open for Covid. Customer held orders for 2021 in October, November, December.
 
 **States Research**
 
