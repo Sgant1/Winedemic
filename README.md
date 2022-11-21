@@ -19,7 +19,7 @@ Team member Steve Gant is employed by a 3rd party logistics company and has been
 
 - We will be using the 2019 shipping data to establish a baseline for sales pre-pandemic. The onset of the COVID-19 pandemic began around January of 2020 with many states issuing lockdowns and Shelter in Place orders around March/April 2020 and extended through around May/June of 2020. Wine shipment data for the year 2021 will be used to describe the post-pandemic/recovery period in this data story.
 
-- The data set includes wines shipped to all states except where prohibited by law. As is the case for the states of Rhode Island, Mississippi, and Utah.
+- The includes wines shipped to all states except where prohibited by law. As is the case for the states of Rhode Island, Mississippi, and Utah.
 
 **Wine Companies Studied**
 
@@ -41,7 +41,7 @@ Three of the companies are e-commerce based companies--wine sellers who offer wi
 
 We have compiled a spreadsheet with specific information as it pertains to each individual state along with additional information we found might be interesting or important to consider in our analysis. This spreadsheet includes Population, Population Density, Household Size, % Uninsured, % Living in Poverty, % Population aged 65+, Lockdown Start, Initial Expected Lockdown End, Phase 1 Re-Opening Start, Re-Opening notes, Shipping Laws/Restrictions, Maximum Shipping Amount allowed in accordance with individual state laws, and Political Alignment.
 
-[States Spreadsheet] https://docs.google.com/spreadsheets/d/1HCtPgPVyrqVgxTyKwS5Qj6OLXZJXs_VPq_MCs4-rusg/edit#gid=1741904899
+[Research Data](https://docs.google.com/spreadsheets/d/1HCtPgPVyrqVgxTyKwS5Qj6OLXZJXs_VPq_MCs4-rusg/edit#gid=1741904899 "Research data for individual states Google Sheet")
 
 - We defined Lockdown start dates as the date in which the entire state was ordered by its Governor to "Shelter in Place" -- or in the case of Alaska, "Hunker Down." Many states ordered public schools to close and limited large gathering activities earlier than March of 2020 but did not close the states non-essential activities and businesses until later-- if at all, in the case of a couple states(). This definition made the most sense to us since our goal was to analyze how lockdown orders effected wine sales. With normal, in person, avenues for purchasing wine shutdown in many cases, were consumers more likely to have wine shipped to them as the natural alternative?
 
@@ -55,32 +55,13 @@ We have compiled a spreadsheet with specific information as it pertains to each 
 
 **Database Set-up Code**
 
-[Database Set-up Code](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/schema.sql)
+[Database Set-up Code](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/schema.sql "Raw Data for Set-up Code")
 
 **Description of Machine Learning model:**
 
-The goal of the machine learning model is to be able to predict ‘Item/Bottle Count. By using the available data from 2019, 2020 and 2021, we can create a regression model that will predict wine purchasing trends over time. 
+The goal of the Machine Learning model is to predict ‘Item/Bottle Count’ per month. We can do this using a regression model, specifically the RandomForestRegression model from Scikit Learn. This model can be optimized by changing the hyperparameters of the model(ex: max_depth), and the predictions can be scored by printing the r-squared values once the model has been trained and tested. This model can quickly predict regression outputs (‘Item/Bottle Count’) from complex data and is more easily interpreted compared to a neural network model.
 
-Initially we considered using a categorical model to predict a category range of ‘Item/Bottle Count’ and it seemed like a categorical model would be more accurate. However, we eventually concluded that it is more useful to have a regression model to predict a numerical value for purchasing trends over time, and when comparing the accuracy scores between the two types of models, the regression model scored pretty well. In addition, we have also altered the methods of splitting up the training and testing data. Initially we used the standard train_test_split() method on all the available data. Then we tried to customize the training data by ensuring we had samples from every month. Lastly, we decided that the most useful and reproducible way to split the data was by time period and training the model with past purchasing data and testing the model on the most recent available data. 
-
-We used the Random Forest Regressor model to make these predictions. Random Forest models are usually more accurate than single Decision Tree models and typically have a lower chance of overfitting the data. Random Forest models are also easier to use compared to neural networks because the input features do not need to be scaled in order to produce acceptable results, and they don’t usually need as much optimizing or tuning (no need to determine the optimal number of units, layers, epochs, etc.). However, it is important to be aware that Random Forest models cannot extrapolate values that fall outside of the training data, so the model will only be able to predict within the range of values that it has seen before. 
-
-Our input features will be the Company Name, City, State, and Created Date (Year, Month, and Day), and the target will be the ‘Item/Bottle Count’. We can drop the ‘Order Number’ column to reduce unnecessary noise because the order identification should not have any influence over the output. ‘Ship Date’ can also be dropped because we only want to focus on the date the order was created, whereas keeping ‘Ship Date’ may confuse the model. ‘Zip’ can be dropped because ‘City’ and ‘State’ should provide enough information to the model to produce acceptable results. In addition, the model cannot interpret categorical data, so the ‘City’ and ‘State’ columns need to be encoded and converted to numerical datatypes. ‘Weight’ can also be dropped because the values can be inferred from the target variable ‘Item/Bottle Count’. 
-
-From the 3 years of available data, we used the first 2.5 years for training and then tested it on the last six months of data. The first 2.5 years includes data during COVID lockdown and captures some of the extreme outliers that occurred during that time. We then used the test data to predict ‘Item/Bottle Count’ for the last six months of 2021.
-
-The accuracy of the model can be scored by calculating the R-squared value, Root Mean Squared Error, and Mean Absolute Error. This will help us measure how well the model performs, and the differences between the actual vs. predicted target values.
-
-- Current Scores:
-    - Training R-Squared: 0.87
-    - Test R-Squared: -7.9
-    - RMSE: 10.5
-    - MAE: 1.9
-
-Further training of the model could involve adding new purchase data as it occurs over time into the training data set and continuing to use the model to predict ‘Item/Bottle Count’. As the model continues to learn from more and more data, it’s prediction accuracy should increase as well. This could allow wine companies to more accurately predict purchasing trends into the future. 
-
-To learn more about our Machine Learning model, see our outline here:
-[MachineLearning_Outline](https://github.com/Sgant1/Final_Project/tree/main/EW_MachineLearning_Outline)
+[EW_MachineLearning_Outline](https://github.com/Sgant1/Final_Project/tree/main/EW_MachineLearning_Outline "EW Machine Learning")
 
 ## Questions Answered
 
@@ -152,7 +133,7 @@ Most states decreased in total bottles shipped to them from 2020 to 2021
 
 # Presentation
 
-Link to Google Sheets - https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.g1861b40c787_0_122
+[Google Power Point](https://docs.google.com/presentation/d/1hp-BWXtIPt3EbBRc0EJJZQTD55_zflQvH2bcfMTNE8Y/edit#slide=id.g1861b40c787_0_122 "Final Presentation Power Point")
 
 # Tableau Dashboard
 
