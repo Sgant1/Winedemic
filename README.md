@@ -161,7 +161,7 @@ Most states decreased in total bottles shipped to them from 2020 to 2021
 
 # Tableau Dashboard
 
-Link (https://public.tableau.com/app/profile/ashley.virga/viz/Winedemic_16690008656370/WineDemicStory?publish=yes)
+[Check out our Winedemic Story on Tableau Public and interact with our data set!] (https://public.tableau.com/app/profile/ashley.virga/viz/Winedemic_16690008656370/WineDemicStory?publish=yes)
  
  
 # Summary
