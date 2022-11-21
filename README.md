@@ -19,7 +19,7 @@ Team member Steve Gant is employed by a 3rd party logistics company and has been
 
 - We will be using the 2019 shipping data to establish a baseline for sales pre-pandemic. The onset of the COVID-19 pandemic began around January of 2020 with many states issuing lockdowns and Shelter in Place orders around March/April 2020 and extended through around May/June of 2020. Wine shipment data for the year 2021 will be used to describe the post-pandemic/recovery period in this data story.
 
-- The data set includes wines shipped to all states except where prohibited by law. As is the case for the states of Rhode Island, Mississippi, and Utah.
+- The includes wines shipped to all states except where prohibited by law. As is the case for the states of Rhode Island, Mississippi, and Utah.
 
 **Wine Companies Studied**
 
@@ -55,7 +55,7 @@ We have compiled a spreadsheet with specific information as it pertains to each 
 
 **Database Set-up Code**
 
-[Database Set-up Code](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/schema.sql)
+[Database Set-up Code](https://github.com/Sgant1/Final_Project/blob/8277ed984b9bb0ba5046f468a511b0789af6f3c2/SQL/schema.sql "Raw Data for Set-up Code")
 
 **Description of Machine Learning model:**
 
