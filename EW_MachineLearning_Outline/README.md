@@ -11,7 +11,7 @@ This project uses the Random Forest Regressor model from Scikit Learn to predict
 2. Import data from 2019, 2020 and 2021 from the PostgreSQL Winedemic database.
 
 3. Feature and Target variables:
-    - Features for the model are Company Name, City, State, Shipping Service, and Created Date.
+    - Features for the model are Company Name, City, State, and Created Date.
     - The target variable for the model is Item/Bottle Count.
 
 4. Model Selection: 
