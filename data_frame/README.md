@@ -167,12 +167,9 @@ ________________________________________________________________________________
 ![2021_total_bottle_count_blue](https://user-images.githubusercontent.com/106630710/203441634-1d483d54-d3d1-4173-ab64-408cd3094b62.png)
 
 ### How many items/bottles have been purchased in each blue state from January 2019 to December 2021?
-2019: 
-![2019_blue_count_by_state_df](https://user-images.githubusercontent.com/106630710/203456645-8cd12ea7-2e10-45e0-8a5c-0cfeec1ff3d1.png)
-2020:
-![2020_total_blue_count_by_state](https://user-images.githubusercontent.com/106630710/202337513-4e58ae47-a7ec-4e3c-b8c6-72b05709d2f9.png)
-2021: 
-![2021_total_bottle_count_by_blue_state](https://user-images.githubusercontent.com/106630710/203441765-1a4c198d-c3f6-482c-8eea-21dc61c81345.png)
+2019:![2019_blue_count_by_state_df](https://user-images.githubusercontent.com/106630710/203456645-8cd12ea7-2e10-45e0-8a5c-0cfeec1ff3d1.png)
+2020:![2020_total_blue_count_by_state](https://user-images.githubusercontent.com/106630710/202337513-4e58ae47-a7ec-4e3c-b8c6-72b05709d2f9.png)
+2021:![2021_total_bottle_count_by_blue_state](https://user-images.githubusercontent.com/106630710/203441765-1a4c198d-c3f6-482c-8eea-21dc61c81345.png)
 
  ### Which Blue state consumed the most wine?
 - 2019: New York: 190,449
