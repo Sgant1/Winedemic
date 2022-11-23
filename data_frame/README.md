@@ -106,7 +106,7 @@ ________________________________________________________________________________
 
 ### How many items/bottles have been purchased in each state from January 2019 to December 2021?
 2019:
-![2019_descending_count_by_state_1-25](https://user-images.githubusercontent.com/106630710/203456962-da5de344-bb49-45ec-82a5-a1765f34ae0f.png)
+![2019_descending_count_by_state_1-25](https://user-images.githubusercontent.com/106630710/203457060-fca94ca6-aa31-4f3b-9f62-02801388d380.png)
 ![2019_descending_count_by_state_26-end](https://user-images.githubusercontent.com/106630710/203456971-065a37f9-593a-4875-8d83-97f20ed36c18.png)
 2020:
 ![2020_total_count_by_state_1-25](https://user-images.githubusercontent.com/106630710/203455489-782f15c9-9d02-4d9a-8f0d-25147215dee2.png)
@@ -155,7 +155,7 @@ ________________________________________________________________________________
   - Mississippi has prohibited the shipment of alcohol, though this order in particular may have confused the checks and balances in place because it was sent to Philedelphia, Mississippi.
 - 2021: Kentucky: 853
 <img width="896" alt="2019_red_maxmin" src="https://user-images.githubusercontent.com/106630710/203441033-e6e93750-2371-48f8-a479-05c5ebc32b11.png">
-![2020_maxmin_total_red_by_state](https://user-images.githubusercontent.com/106630710/203441249-2da69fba-7bdf-42aa-9c23-ca8ca26a6fce.png)
+![2020_maxmin_total_red_by_state](https://user-images.githubusercontent.com/106630710/203441249-2da69fba-7bdf-42aa-9c23-ca8ca26a6fce.png) 
 ![2021_minmax_red_states](https://user-images.githubusercontent.com/106630710/203441286-5ff44e77-2a6c-4c26-a6b9-bc949fc0355d.png)
 
    #### Blue States: 
