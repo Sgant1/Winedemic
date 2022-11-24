@@ -182,9 +182,9 @@ Most states decreased in total bottles shipped to them from 2020 to 2021
 
 [Pandas 1.3.5](https://pandas.pydata.org/pandas-docs/version/1.3/index.html "Pandas 1.3.5")
 
-Matplotlib v.
+Matplotlib v. 3.5.1
 
-NumPy v.
+NumPy v. 1.21.5
 
 SciPy v.
 
