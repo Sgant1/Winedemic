@@ -10,7 +10,7 @@ We will be storing our data in PostgreSQL and using PgAdmin 4 to display the dat
 
 ## Machine Learning
 
-___ is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+We used Scikit Learn, Pandas and Matplotlib for the Machine Learning portion of the project. We loaded the data from Pandas. We used Scikit Learn's LabelEncoder() to encode features. We used Scikit Learn's Random Forest Regressor model to make predictions and the metrics mean_squared_error and mean_absolute_error to measure accuracy. Lastly we used Matplotlib to display the results.
 
 ## Dashboard
 
