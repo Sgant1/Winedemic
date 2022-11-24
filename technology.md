@@ -2,7 +2,7 @@
 
 ## Data Cleaning and Analysis
 
-We used Python in Jupyter Notebook with the Pandas, Matplotlib and NumPy libraries to clean the data and perform an exploratory analysis. We used  ___ to export to SQL.
+We used Python in Jupyter Notebook with the Pandas, Matplotlib and NumPy libraries to clean the data and perform an exploratory analysis. We used  sqlalchemy to export to SQL.
 
 ## Database Storage
 
