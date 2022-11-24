@@ -186,7 +186,7 @@ Matplotlib v. 3.5.1
 
 NumPy v. 1.21.5
 
-SciPy v.
+SciPy v. 1.0
 
 [SQLAlchemy 1.4.32](https://www.sqlalchemy.org/blog/2022/03/06/sqlalchemy-1.4.32-released/ "SQLAlchemy 1.4.32")
 
