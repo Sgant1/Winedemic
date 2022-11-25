@@ -1,14 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 --Database stores static data for use during the project- (So far have connected States, 2019, 2020, and 2021.)
 --Database interfaces with the project in some format (connects to the model)- Erica
 --Includes at least one join using the database language (not including pandas) -Create DB joining all three years and States.
 --Includes at least one connection string (using SQALchemy or PyMongo) - (Connected via pandas in Jupyter Notebook)
 --Provide ERD with relationships- DONE
 
->>>>>>> main
 CREATE TABLE "State Research" (
 	"State"  VARCHAR (40) NOT NULL,
 	Population INT NOT NULL,
